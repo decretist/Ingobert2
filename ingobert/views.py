@@ -6,13 +6,13 @@ from ingobert.models import Sample
 import diff_match_patch
 import re
 
-sourceDict = {'Aa': 'Admont, Stiftsbibliothek 23 and 43',
-        'Bc': 'Barcelona, Arxiu de la Corona d\'Aragó, Santa Maria de Ripoll 78',
-        '4': 'Vat. lat. 4982',
-        '5': 'Beinecke 413, 98r-102r',
-        '5bis': 'Beinecke 413, 102v-104v',
-        'Sirmond': '1623 Sirmond Edition',
-        'Boretius': '1883 Boretius Edition'}
+sourceDict = {
+    'Aa': 'Admont, Stiftsbibliothek 23 and 43',
+    'Bc': 'Barcelona, Arxiu de la Corona d\'Aragó, Santa Maria de Ripoll 78',
+    'Fd': 'Florence, Biblioteca Nazionale Centrale, Conv. Soppr. A. 1.402',
+    'P': 'Paris, Bibliothèque Nationale de France, nouvelles acquisitions latines 1761',
+    'Pfr': 'Paris, Bibliothèque Nationale de France, latin 3884 I, fo. 1',
+}
 
 def compare(left, right):
     a = re.split('[\s\.]+', left.lower())
