@@ -61,3 +61,24 @@ def demo(request):
     }
     return HttpResponse(template.render(context, request))
 
+def test(request):
+    Aa = Sample()
+    samples = Sample.objects.filter(project = 102).filter(source__exact='Aa').filter(label__exact='D.63 d.p.c.34')
+    for sample in samples:
+        if sample.source == 'Aa':
+            Aa = sample
+    Bc = Sample()
+    samples = Sample.objects.filter(project = 102).filter(source__exact='Bc').filter(label__exact='D.63 d.p.c.34')
+    for sample in samples:
+        if sample.source == 'Bc':
+            Bc = sample
+    template = loader.get_template('ingobert/2column.html')
+    context = {
+        'page_head': 'Gratian, <cite>Decretum</cite>, D. 63, d.p.c. 34',
+        'column_1_head': sourceDict[Aa.source],
+        'column_2_head': sourceDict[Bc.source],
+        'column_1_body': compare(Aa.text, Bc.text),
+        'column_2_body': compare(Bc.text, Aa.text),
+    }
+    return HttpResponse(template.render(context, request))
+
