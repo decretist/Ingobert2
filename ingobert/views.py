@@ -32,7 +32,7 @@ def compare(left, right):
             column.append('<span class=highlight>' + text.rstrip() + '</span>')
     return(' '.join(column))
     
-def demo(request):
+def load(request):
     samples = Sample.objects.all()
     for sample in samples:
         sample.delete()
@@ -51,17 +51,9 @@ def demo(request):
     Bc.text = '''Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate nicholay pape est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo innocentii pape rome habita constitutum est.'''
     Bc.save()
 
-    template = loader.get_template('ingobert/2column.html')
-    context = {
-        'page_head': 'Gratian, <cite>Decretum</cite>, D. 63, d.p.c. 34',
-        'column_1_head': sourceDict[Aa.source],
-        'column_2_head': sourceDict[Bc.source],
-        'column_1_body': compare(Aa.text, Bc.text),
-        'column_2_body': compare(Bc.text, Aa.text),
-    }
-    return HttpResponse(template.render(context, request))
+    return HttpResponse('load')
 
-def test(request):
+def demo(request):
     Aa = Bc = Sample()
     label = 'D.63 d.p.c.34'
     project_name = 'Decretum Gratiani'
