@@ -18,5 +18,45 @@
     "label": "D.63 d.p.c.34",
     "text": "Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate nicholay pape est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo innocentii pape rome habita constitutum est."
   }
+},
+{
+  "model": "ingobert.sample",
+  "pk": 3,
+  "fields": {
+    "project": 101,
+    "source": "4",
+    "label": "c. 1",
+    "text": "quia necesse est ut quod male reincrescit iterum recidatur de constitutionibus antecessorum nostrorum et nostris quae in illorum et nostris capitulis constitutae sunt ad resecanda mala quae specialiter iterum reemergunt missis et comitibus nostris exequenda proponimus id est ut quando missi uel comites nostri latronem uel aliquem malefactorem uel infidelem nostrum forbannierint hoc nobis in nostro palatio et aliis missis et comitibus scire faciant ut si ad nostram curtem uenerit inde faciamus quod nostrum est et si de uno missatico uel comitatu in alium missaticum uel comitatum fugerit missus uel comes in cuius missaticum fugerit per fideiussores constringat ut uelit nolit illuc reueniat et ibi malum emendet ubi illud perpetrauit et si fideiussores non habuerit sub custodia illum habeat donec ad illum comitem in cuius comitatu forbannitus fuerit illum reuenire faciat et si alodem habuerit uel in illo comitatu unde fugit uel in illo comitatu ad quem fugit comes ipsum alodem in fiscum recipiat et qui talem forbannitum receperit secundum quod constitutum est in capitularibus aui et patris nostri in libro tertio si francus est dixi similibus francis iuret quod ipsum latronem uel forbannitum esse non scisset licet pater eius sit aut frater aut propinquus si hoc iurare non potuerit uel ab alio conuictus fuerit quod latronem uel malefactorem aut infidelem nostrum forbannitum in hospitio suscepisset sicut ipse forbannitus et ut infidelis iudicetur"
+  }
+},
+{
+  "model": "ingobert.sample",
+  "pk": 4,
+  "fields": {
+    "project": 101,
+    "source": "5",
+    "label": "c. 1",
+    "text": "quia necesse est ut quod male reincrescit iterum recidatur de constitutionibus antecessorum nostrorum et nostris quae in illorum et nostris capitulis constitutae sunt ad resecanda mala quae specialiter iterum reemergunt missis et comitibus nostris firmiter exsequenda proponimus id est ut quando missi uel comites nostri latronem uel aliquem malefactorem uel infidelem nostrum forbannierint hoc nobis in nostro palatio et aliis missis et comitibus scire faciant ut si ad nostram curtem uenerit inde faciamus quod iustum est et si de uno missatico uel comitatu in alium missaticum uel comitatum fugerit missus uel comes in cuius missaticum fugerit illum per fideiussores constringat ut uelit nolit illuc reueniat et ibi malum emendet ubi illud perpetrauit et si fideiussores non habuerit sub custodia illum habeat donec ad illum comitem in cuius comitatu forbannitus fuit reuenire faciat et si alodem habuerit uel in illo comitatu unde fugit uel in illo comitatu ad quem fugit comes ipsum alodem in fiscum recipiat et qui talem forbannitum reciperit secundum quod constitutum est in capitularibus aui et patris nostri in libro tertio capitulo xxiii si francus est cum duodecim similibus francis iuret quod ipsum latronem uel forbannitum esse non scisset licet pater eius sit aut frater aut propinquus si hoc iurare non potuerit uel ab alio conuictus fuerit quod latronem uel malefactorem aut infidelem nostrum forbannitum in hospitio suscepisset sicut ipse forbannitus et ut infidelis iudicetur"
+  }
+},
+{
+  "model": "ingobert.sample",
+  "pk": 5,
+  "fields": {
+    "project": 101,
+    "source": "5bis",
+    "label": "c. 1",
+    "text": "quia necesse est ut quod male reincrescit iterum recidatur de constitutionibus antecessorum nostrorum et nostris quae in illorum et nostris capitulis constitutae sunt ad resecanda mala quae specialiter iterum reemergunt missis et comitibus nostris firmiter exequenda proponimus id est ut quando missi uel comites nostri latronem uel aliquem malefactorem uel infidelem nostrum forbannierint hoc nobis in nostro palatio et aliis missis et comitibus scire faciant ut si ad nostram curtem uenerit inde faciamus quod nostrum est et si de uno missatico uel comitatu in alium missaticum uel comitatum fugerit missus uel comes in cuius missaticum fugerit illum per fideiussores constringat ut uelit nolit illuc reueniat et ibi mallum emendet ubi illud penetrauit et si fideiussores non habuerit sub custodia illum habeat donec ad illum comitatum in cuius comitatu forbannitus fuit illum reuenire faciat et si alodem habuerit uel in illo comitatu unde fugit uel in illo comitatu ad quem fugit comes ipsum alodem in fiscum recipiat et qui talem forbannitum receperit secundum quod constitutum est in capitularibus aui et patris nostri in libro tertio capitulo xxiii si francus est cum duodecim similibus francis iuret quod ipsum latronem uel forbannitum esse non scisset licet pater eius sit aut frater aut propinquus si hoc iurare non potuerit uel ab alio conuictus fuerit quod latronem uel malefactorem aut infidelem nostrum forbannitum in hospitio suscepisset sicut ipse forbannitus et ut infidelis uidetur"
+  }
+},
+{
+  "model": "ingobert.sample",
+  "pk": 6,
+  "fields": {
+    "project": 101,
+    "source": "Sirmond",
+    "label": "c. 1",
+    "text": "quia necesse est ut quod malae rei increscit iterum recidatur de constitutionibus antecessorum nostrorum et nostris quae in illorum et nostris capitulis constitutae sunt ad resecanda mala quae specialiter iterum remergunt missis et comitibus nostris firmiter exequenda proponimus id est ut quando missi uel comites nostri latronem uel aliquem malefactorem uel infidelem nostrum forbannierint hoc nobis in nostro palatio et aliis missis et comitibus scire faciant ut si ad nostram curtem uenerit inde faciamus quod nostrum est et si de uno missatico uel comitatu in alium missaticum uel comitatum fugerit missus uel comes in cuius missaticum fugerit per fideiussores constringat ut uelit nolit illuc reueniat et ibi malum emendet ubi illud perpetrauit et si fideiussores non habuerit sub custodia illum habeat donec ad illum comitem in cuius comitatu forbannitus fuerit illum reuenire faciat et si alodem habuerit uel in illo comitatu unde fugit uel in illo comitatu ad quem fugit comes ipsum alodem in fiscum recipiat et qui talem forbannitum receperit secundum quod constitutum est in capitularibus aui et patris nostri in libro tertio si francus est cum duodecim similibus francis iuret quod ipsum latronem uel forbannitum esse non scisset licet pater eius sit aut frater aut propinquus si hoc iurare non potuerit uel ab alio conuictus fuerit quod latronem uel malefactorem aut infidelem nostrum forbannitum in hospitio suscepisset sicut ipse forbannitus et ut infidelis iudicetur"
+  }
 }
 ]
