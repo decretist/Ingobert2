@@ -32,27 +32,6 @@ def compare(left, right):
             column.append('<span class=highlight>' + text.rstrip() + '</span>')
     return(' '.join(column))
     
-def load(request):
-    samples = Sample.objects.all()
-    for sample in samples:
-        sample.delete()
-
-    Aa = Sample()
-    Aa.project = 102
-    Aa.source = 'Aa'
-    Aa.label = 'D.63 d.p.c.34'
-    Aa.text = '''Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate Nicholai papȩ est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo Innocentii papȩ romȩ habita constitutum est.'''
-    Aa.save() 
-
-    Bc = Sample()
-    Bc.project = 102
-    Bc.source = 'Bc'
-    Bc.label = 'D.63 d.p.c.34'
-    Bc.text = '''Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate nicholay pape est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo innocentii pape rome habita constitutum est.'''
-    Bc.save()
-
-    return HttpResponse('load')
-
 def demo(request):
     Aa = Bc = Sample()
     label = 'D.63 d.p.c.34'
