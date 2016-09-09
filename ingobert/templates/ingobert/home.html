@@ -1,0 +1,30 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="/static/ingobert/ingobert.css" />
+<link type="text/css" rel="stylesheet" href="/static/ingobert/grid.css" />
+<title>
+CSRF Test
+</title>
+</head>
+<body>
+<div>
+<form action=/test/ method=post>{% csrf_token %}
+<input name="project" type="text" value="Gratian">
+<input name="label" type="text" value="D.63 d.p.c.34">
+<input name="column_1" type="text" value="Aa">
+<input name="column_2" type="text" value="Bc">
+<input type="Submit" value="Submit">
+</form>
+</div>
+<div>
+<form action=/test/ method=post>{% csrf_token %}
+<input name="project" type="text" value="Beinecke 413">
+<input name="label" type="text" value="c. 1">
+<input name="column_1" type="text" value="4">
+<input name="column_2" type="text" value="5">
+<input type="Submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
+

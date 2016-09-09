@@ -12,6 +12,11 @@ sourceDict = {
     'Fd': 'Florence, Biblioteca Nazionale Centrale, Conv. Soppr. A. 1.402',
     'P': 'Paris, Bibliothèque Nationale de France, nouvelles acquisitions latines 1761',
     'Pfr': 'Paris, Bibliothèque Nationale de France, latin 3884 I, fo. 1',
+    '4': 'Vat. lat. 4982',
+    '5': 'Beinecke 413, 98r-102r',
+    '5bis': 'Beinecke 413, 102v-104v',
+    'Sirmond': '1623 Sirmond Edition',
+    'Boretius': '1883 Boretius Edition'
 }
 
 def compare(left, right):
@@ -50,5 +55,56 @@ def demo(request):
         'column_1_body': compare(Aa.text, Bc.text),
         'column_2_body': compare(Bc.text, Aa.text),
     }
+    return HttpResponse(template.render(context, request))
+
+def test(request):
+    if request.method == 'POST':
+        project = request.POST.get('project', '')
+        label = request.POST.get('label', '')
+        if (project == 'Gratian'):
+            page_head = 'Gratian, <cite>Decretum</cite>, ' + label
+        elif (project == 'Beinecke 413'):
+            page_head = 'Capitulare Carisiacense, ' + label
+        samples = Sample.objects.filter(project__exact = project).filter(label__exact = label)
+        column_1 = column_2 = None
+        column_1_body = column_2_body = ''
+        for sample in samples:
+            if (sample.source == request.POST.get('column_1', '')):
+                column_1 = sample
+            if (sample.source == request.POST.get('column_2', '')):
+                column_2 = sample
+        if column_1 is not None:
+            if column_2 is not None:
+                column_1_body = compare(column_1.text, column_2.text)
+            else:
+                column_1_body = compare(column_1.text, '')
+        if column_2 is not None:
+            if column_1 is not None:
+                column_2_body = compare(column_2.text, column_1.text)
+            else:
+                column_2_body = compare(column_2.text, '')
+        template = loader.get_template('ingobert/2column.html')
+        context = {
+            'page_head': page_head,
+            'column_1_head': sourceDict[request.POST.get('column_1', '')],
+            'column_2_head': sourceDict[request.POST.get('column_2', '')],
+            'column_1_body': column_1_body,
+            'column_2_body': column_2_body,
+        }
+        return HttpResponse(template.render(context, request))
+    # GET works, but generates hideous URLs
+    elif request.method == 'GET':
+        project = request.GET.get('project', '')
+        label = request.GET.get('label', '')
+        column_1 = request.GET.get('column_1', '')
+        column_2 = request.GET.get('column_2', '')
+        response = 'GET' + ' ' + project + ' ' + label + ' ' + column_1 + ' ' + column_2
+        return HttpResponse(response)
+    else:
+        return HttpResponse('unknown')
+
+def home(request):
+    context = {}
+    template = loader.get_template('ingobert/home.html')
     return HttpResponse(template.render(context, request))
 
