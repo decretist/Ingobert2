@@ -8,5 +8,6 @@ urlpatterns = [
     url(r'demo/', views.demo),
     url(r'home/', views.home),
     url(r'2column/', views.two_column),
+    url(r'4column/', views.four_column),
 ]
 

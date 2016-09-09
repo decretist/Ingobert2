@@ -39,8 +39,9 @@ def compare(left, right):
     
 def demo(request):
     Aa = Bc = Sample()
-    label = 'D.63 d.p.c.34'
-    project_name = 'Decretum Gratiani'
+    label = 'D. 63, d.p.c. 34'
+    project = 'Gratian, <cite>Decretum</cite>'
+    page_head = project + ', ' + label
     samples = Sample.objects.filter(project = 'Gratian').filter(label__exact = label)
     for sample in samples:
         if sample.source == 'Aa':
@@ -49,7 +50,7 @@ def demo(request):
             Bc = sample
     template = loader.get_template('ingobert/2column.html')
     context = {
-        'page_head': '<cite>' + project_name + '</cite>, ' + label,
+        'page_head': page_head,
         'column_1_head': sourceDict[Aa.source],
         'column_2_head': sourceDict[Bc.source],
         'column_1_body': compare(Aa.text, Bc.text),
@@ -63,8 +64,8 @@ def two_column(request):
         label = request.POST.get('label', '')
         if (project == 'Gratian'):
             page_head = 'Gratian, <cite>Decretum</cite>, ' + label
-        elif (project == 'Beinecke 413'):
-            page_head = 'Capitulare Carisiacense, ' + label
+        else:
+            page_head = project + ', ' + label
         samples = Sample.objects.filter(project__exact = project).filter(label__exact = label)
         column_1 = column_2 = None
         column_1_body = column_2_body = ''
@@ -102,6 +103,43 @@ def two_column(request):
         return HttpResponse(response)
     else:
         return HttpResponse('unknown')
+
+def four_column(request):
+    if request.method == 'POST':
+        project = request.POST.get('project', '')
+        label = request.POST.get('label', '')
+        title = project + ', ' + label
+        samples = Sample.objects.filter(project__exact = project).filter(label__exact = label)
+        tmps = [None, None, None, None]
+        sourceList = ['5', '5bis', 'Sirmond', 'Boretius']
+        sourceList.remove(request.POST.get('comparison', ''))
+        for sample in samples:
+            if (sample.source == request.POST.get('comparison', '')):
+                tmps[0] = sample
+            if (sample.source == sourceList[0]):
+                tmps[1] = sample
+            if (sample.source == sourceList[1]):
+                tmps[2] = sample
+            if (sample.source == sourceList[2]):
+                tmps[3] = sample
+        columns = []
+        for tmp in tmps:
+            column = {}
+            if (tmp != None):
+                if (tmp == tmps[0]):
+                    column['highlight'] = True
+                column['source'] = sourceDict[tmp.source]
+                if (tmps[0] != None):
+                    column['text'] = compare(tmp.text, tmps[0].text)
+                elif (tmps[0] == None):
+                    column['text'] = compare(tmp.text, '')
+            columns.append(column)
+        template = loader.get_template('ingobert/4column.html')
+        context = {
+            'title': title,
+            'columns': columns,
+        }
+        return HttpResponse(template.render(context, request))
 
 def home(request):
     context = {}
