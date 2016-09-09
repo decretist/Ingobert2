@@ -5,8 +5,8 @@ from . import views
 
 urlpatterns = [
     url(r'^$', TemplateView.as_view(template_name="ingobert/index.html")),
-    url(r'demo/', views.demo, name='demo'),
-    url(r'home/', views.home, name='home'),
-    url(r'test/', views.test, name='test'),
+    url(r'demo/', views.demo),
+    url(r'home/', views.home),
+    url(r'2column/', views.two_column),
 ]
 

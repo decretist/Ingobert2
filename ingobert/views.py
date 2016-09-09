@@ -57,7 +57,7 @@ def demo(request):
     }
     return HttpResponse(template.render(context, request))
 
-def test(request):
+def two_column(request):
     if request.method == 'POST':
         project = request.POST.get('project', '')
         label = request.POST.get('label', '')
