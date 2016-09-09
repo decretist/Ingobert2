@@ -36,7 +36,7 @@ def demo(request):
     Aa = Bc = Sample()
     label = 'D.63 d.p.c.34'
     project_name = 'Decretum Gratiani'
-    samples = Sample.objects.filter(project = 102).filter(label__exact = label)
+    samples = Sample.objects.filter(project = 'Gratian').filter(label__exact = label)
     for sample in samples:
         if sample.source == 'Aa':
             Aa = sample
