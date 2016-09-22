@@ -4,7 +4,9 @@ from django.shortcuts import render
 from django.template import loader
 from ingobert.models import Sample
 import diff_match_patch
+import difflib
 import re
+import string
 
 sourceDict = {
     'Aa': 'Admont, Stiftsbibliothek 23 and 43',
@@ -37,6 +39,24 @@ def compare(left, right):
             column.append('<span class=highlight>' + text.rstrip() + '</span>')
     return(' '.join(column))
     
+def contrast(left, right):
+    a = re.split('[\s\.]+', left.lower())
+    b = re.split('[\s\.]+', right.lower())
+    column = []
+    diffs = difflib.ndiff(a, b)
+    for diff in diffs:
+        if re.match('  $', diff):
+            continue
+        elif re.match('\? ', diff):
+            continue
+        elif re.match('- ', diff):
+            column.append('<span class=highlight>' + string.replace(diff, '- ', '') + '</span>')
+        elif re.match('\+ ', diff):
+            pass
+        else:
+            column.append(string.replace(diff, '  ', ''))
+    return ' '.join(column)
+
 def demo(request):
     Aa = Bc = Sample()
     label = 'D. 63, d.p.c. 34'
@@ -53,8 +73,8 @@ def demo(request):
         'page_head': page_head,
         'column_1_head': sourceDict[Aa.source],
         'column_2_head': sourceDict[Bc.source],
-        'column_1_body': compare(Aa.text, Bc.text),
-        'column_2_body': compare(Bc.text, Aa.text),
+        'column_1_body': contrast(Aa.text, Bc.text),
+        'column_2_body': contrast(Bc.text, Aa.text),
     }
     return HttpResponse(template.render(context, request))
 
@@ -76,14 +96,14 @@ def two_column(request):
                 column_2 = sample
         if column_1 is not None:
             if column_2 is not None:
-                column_1_body = compare(column_1.text, column_2.text)
+                column_1_body = contrast(column_1.text, column_2.text)
             else:
-                column_1_body = compare(column_1.text, '')
+                column_1_body = contrast(column_1.text, '')
         if column_2 is not None:
             if column_1 is not None:
-                column_2_body = compare(column_2.text, column_1.text)
+                column_2_body = contrast(column_2.text, column_1.text)
             else:
-                column_2_body = compare(column_2.text, '')
+                column_2_body = contrast(column_2.text, '')
         template = loader.get_template('ingobert/2column.html')
         context = {
             'page_head': page_head,
@@ -130,9 +150,9 @@ def four_column(request):
                     column['highlight'] = True
                 column['source'] = sourceDict[tmp.source]
                 if (tmps[0] != None):
-                    column['text'] = compare(tmp.text, tmps[0].text)
+                    column['text'] = contrast(tmp.text, tmps[0].text)
                 elif (tmps[0] == None):
-                    column['text'] = compare(tmp.text, '')
+                    column['text'] = contrast(tmp.text, '')
             columns.append(column)
         template = loader.get_template('ingobert/4column.html')
         context = {
