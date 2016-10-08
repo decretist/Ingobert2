@@ -3,10 +3,9 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
 from ingobert.models import Sample
-import diff_match_patch
+from . import diff_match_patch
 import difflib
 import re
-import string
 
 sourceDict = {
     'Aa': 'Admont, Stiftsbibliothek 23 and 43',
@@ -50,11 +49,11 @@ def contrast(left, right):
         elif re.match('\? ', diff):
             continue
         elif re.match('- ', diff):
-            column.append('<span class=highlight>' + string.replace(diff, '- ', '') + '</span>')
+            column.append('<span class=highlight>' + str.replace(diff, '- ', '') + '</span>')
         elif re.match('\+ ', diff):
             pass
         else:
-            column.append(string.replace(diff, '  ', ''))
+            column.append(str.replace(diff, '  ', ''))
     return ' '.join(column)
 
 def demo(request):
