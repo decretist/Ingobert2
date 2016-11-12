@@ -50,8 +50,7 @@ Ingobert: Front Page
 <input type="submit" value="Submit">
 </form>
 </div>
-<div class="column grid_4">
-<div style="background-color: #f0f0f0">
+<div class="column grid_4" style="background-color: #f0f0f0">
 <h3 style="text-align:center">4-Column Comparison</h3>
 <form action="/4column/" method="post">{% csrf_token %}
 <input name="project" type="hidden" value="Capitulare Carisiacense">
@@ -83,8 +82,77 @@ Ingobert: Front Page
 <input type="submit" value="Submit">
 </form>
 </div>
+<div class="column grid_4">
+<p></p>
+</div>
+</div>
+<div class="row">
+<div class="column grid_4" style="background-color: #f0f0f0">
+<h3 style="text-align:center">2-Column Comparison</h3>
+<form action="/2column/" method="post">{% csrf_token %}
+<input name="project" type="hidden" value="Gratian">
+<h4>Select case statement:</h4>
+<select name="label">
+<option value="C. 1, d.init.">C. 1, d.init.</option>
+<option value="C. 2, d.init.">C. 2, d.init.</option>
+<option value="C. 3, d.init.">C. 3, d.init.</option>
+<option value="C. 4, d.init.">C. 4, d.init.</option>
+<option value="C. 5, d.init.">C. 5, d.init.</option>
+<option value="C. 6, d.init.">C. 6, d.init.</option>
+<option value="C. 7, d.init.">C. 7, d.init.</option>
+<option value="C. 8, d.init.">C. 8, d.init.</option>
+<option value="C. 9, d.init.">C. 9, d.init.</option>
+<option value="C. 10, d.init.">C. 10, d.init.</option>
+<option value="C. 11, d.init.">C. 11, d.init.</option>
+<option value="C. 12, d.init.">C. 12, d.init.</option>
+<option value="C. 13, d.init.">C. 13, d.init.</option>
+<option value="C. 14, d.init.">C. 14, d.init.</option>
+<option value="C. 15, d.init.">C. 15, d.init.</option>
+<option value="C. 16, d.init.">C. 16, d.init.</option>
+<option value="C. 17, d.init.">C. 17, d.init.</option>
+<option value="C. 18, d.init.">C. 18, d.init.</option>
+<option value="C. 19, d.init.">C. 19, d.init.</option>
+<option value="C. 20, d.init.">C. 20, d.init.</option>
+<option value="C. 21, d.init.">C. 21, d.init.</option>
+<option value="C. 22, d.init.">C. 22, d.init.</option>
+<option value="C. 23, d.init.">C. 23, d.init.</option>
+<option value="C. 24, d.init.">C. 24, d.init.</option>
+<option value="C. 25, d.init.">C. 25, d.init.</option>
+<option value="C. 26, d.init.">C. 26, d.init.</option>
+<option value="C. 27, d.init.">C. 27, d.init.</option>
+<option value="C. 28, d.init.">C. 28, d.init.</option>
+<option value="C. 29, d.init.">C. 29, d.init.</option>
+<option value="C. 30, d.init.">C. 30, d.init.</option>
+<option value="C. 31, d.init.">C. 31, d.init.</option>
+<option value="C. 32, d.init.">C. 32, d.init.</option>
+<option value="C. 33, d.init.">C. 33, d.init.</option>
+<option value="C. 34, d.init.">C. 34, d.init.</option>
+<option value="C. 35, d.init.">C. 35, d.init.</option>
+<option value="C. 36, d.init.">C. 36, d.init.</option>
+</select>
+<br>
+<h4>Select left column source:</h4>
+<select name="column_1">
+<option value="edF">edF</option>
+<option value="1r">1r</option>
+<option value="Sg">Sg</option>
+</select>
+<br>
+<h4>Select right column source:</h4>
+<select name="column_2">
+<option value="edF">edF</option>
+<option value="1r">1r</option>
+<option value="Sg">Sg</option>
+</select>
+<br>
+<h4>Submit:</h4>
+<input type="submit" value="Submit">
+</form>
 </div>
 <div class="column grid_4">
+<p></p>
+</div>
+<div class="column grid_4" style="background-color: #f0f0f0">
 <h3 style="text-align:center"><cite>Decretum</cite> Demo</h3>
 <p>
 Here is a link to the original demo page comparing the Aa and Bc texts of 
