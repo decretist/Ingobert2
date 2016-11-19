@@ -13,8 +13,9 @@ sourceDict = {
     'Fd': 'Florence, Biblioteca Nazionale Centrale, Conv. Soppr. A. 1.402',
     'P': 'Paris, Bibliothèque Nationale de France, nouvelles acquisitions latines 1761',
     'Pfr': 'Paris, Bibliothèque Nationale de France, latin 3884 I, fo. 1',
-    'edF': 'edF',
-    'Sg': 'Sg',
+    'Sg': 'Sankt Gallen, Stiftsbibliothek 673',
+    'Fr.': 'Friedberg edition',
+    '1r.': 'First recension',
     '4': 'Vat. lat. 4982',
     '5': 'Beinecke 413, 98r-102r',
     '5bis': 'Beinecke 413, 102v-104v',
@@ -124,6 +125,41 @@ def two_column(request):
         return HttpResponse(response)
     else:
         return HttpResponse('unknown')
+
+def three_column(request):
+    if request.method == 'POST':
+        project = request.POST.get('project', '')
+        label = request.POST.get('label', '')
+        title = project + ', ' + label
+        samples = Sample.objects.filter(project__exact = project).filter(label__exact = label)
+        tmps = [None, None, None]
+        sourceList = ['Fr.', '1r.', 'Sg']
+        sourceList.remove(request.POST.get('comparison', ''))
+        for sample in samples:
+            if (sample.source == request.POST.get('comparison', '')):
+                tmps[0] = sample
+            if (sample.source == sourceList[0]):
+                tmps[1] = sample
+            if (sample.source == sourceList[1]):
+                tmps[2] = sample
+        columns = []
+        for tmp in tmps:
+            column = {}
+            if (tmp != None):
+                if (tmp == tmps[0]):
+                    column['highlight'] = True
+                column['source'] = sourceDict[tmp.source]
+                if (tmps[0] != None):
+                    column['text'] = contrast(tmp.text, tmps[0].text)
+                elif (tmps[0] == None):
+                    column['text'] = contrast(tmp.text, '')
+            columns.append(column)
+        template = loader.get_template('ingobert/3column.html')
+        context = {
+            'title': title,
+            'columns': columns,
+        }
+        return HttpResponse(template.render(context, request))
 
 def four_column(request):
     if request.method == 'POST':
