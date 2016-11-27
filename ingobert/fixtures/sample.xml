@@ -43,418 +43,867 @@
     <field name="text" type="TextField">quia necesse est ut quod male reincrescit iterum recidatur de constitutionibus antecessorum nostrorum et nostris quae in illorum et nostris capitulis constitutae sunt ad resecanda mala quae specialiter iterum remergunt missis et comitibus nostris firmiter exequenda proponimus id est ut quando missi uel comites nostri latronem uel aliquem malefactorem uel infidelem nostrum forbannierint hoc nobis in nostro palatio et aliis missis et comitibus scire faciant ut si ad nostram curtem uenerit inde faciamus quod nostrum est et si de uno missatico uel comitatu in alium missaticum uel comitatum fugerit missus uel comes in cuius missaticum fugerit per fideiussores constringat ut uelit nolit illuc reueniat et ibi malum emendet ubi illud perpetrauit et si fideiussores non habuerit sub custodia illum habeat donec ad illum comitem in cuius comitatu forbannitus fuerit illum reuenire faciat et si alodem habuerit uel in illo comitatu unde fugit uel in illo comitatu ad quem fugit comes ipsum alodem in fiscum recipiat et qui talem forbannitum receperit secundum quod constitutum est in capitularibus aui et patris nostri in libro tertio si francus est cum duodecim similibus francis iuret quod ipsum latronem uel forbannitum esse non scisset licet pater eius sit aut frater aut propinquus si hoc iurare non potuerit uel ab alio conuictus fuerit quod latronem uel malefactorem aut infidelem nostrum forbannitum in hospitio suscepisset sicut ipse forbannitus et ut infidelis iudicetur</field>
   </object>
   <object model="ingobert.sample" pk="8">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 2</field>
+    <field name="text" type="TextField">ut comites et missi nostri maximam curam adhibeant quatinus in illorum comitatibus et missaticis populus iustitiam et pacem habeat et de latronibus extirpandis maximum certamen habeant et si talis malefactor aut infidelis noster emerserit ut per se illum compraehendere comes in suo comitatu non possit accipiat homines tam nostros quam episcoporum uel abbatum et abbatissarum in suo comitatu commanentes et sic illum persequatur donec compraehendat et qui ad talem malefactorem uocatus fuerit et se inde retraxerit ut ad hoc adiutorium non praestet si liber homo fuerit bannum dominicum componat et si colonus fuerit sexaginta ictus accipiat et si talis malefactor in illa persecutione occisus fuerit qui eum occiderit leudem inde non soluat et nullus illi inde faidam portare praesumat quod si quis facere praesumpserit per certos fideiussores ad nostram praesentiam perducatur</field>
+  </object>
+  <object model="ingobert.sample" pk="9">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 2</field>
+    <field name="text" type="TextField">ut comites et missi nostri maximam curam adhibeant quatinus in illorum comitatibus et missaticis populus iustitiam et pacem habeat et de latronibus exstirpandis maximum certamen habeant et si talis malefactor aut infidelis noster emerserit ut per se illum conprehendere comes in suo comitatu non possit accipiat homines tam nostros quam episcoporum uel abbatum et abbatissarum in suo comitatu commanentes et sic illum persequatur donec conprehendat et qui at talem malefactorem accipiendum uocatus fuerit et se inde retraxerit ut ad hoc adiutorium non prestet si liber homo fuerit bannum dominicum componat et si colonus fuerit lx ictus accipiat et si talis malefactor in illa persecutione occisus fuerit leudem inde non soluat et nullus illi inde faidam portare presumat quod si quis facere presumpserit per certos fideiussores ad nostram presentiam perducatur</field>
+  </object>
+  <object model="ingobert.sample" pk="10">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 2</field>
+    <field name="text" type="TextField">ut comites et missi nostri maximam curam adhibeant quatinus in illorum comitatibus et missaticis populus iustitiam et pacem habeat et de latronibus exturbandis maximum certamen habeant et si talis malefactor aut infidelis noster emerserit ut per se illum comprehendere comes in suo comitatu non possit accipiat homines tam nostros quam episcoporum uel abbatum et abbatissarum in suo comitatu commanentes et sic illum persequatur donec comprehendat et qui ad talem malefactorem accipiendum uocatus fuerit et se inde retraxerit ut ad hoc adiutorium non praestet si liber homo fuerit bannum dominicum componat et si colonus fuerit lx ictus accipiat et si talis malefactor in illa persecutione occisus fuerit qui eum occiderit leudem inde non soluat et nullus illi inde faidam portare praesumat quod si quis facere praesumpserit per certos fideiussores ad nostram praesentiam perducatur</field>
+  </object>
+  <object model="ingobert.sample" pk="11">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 2</field>
+    <field name="text" type="TextField">ut comites et missi nostri maximam curam adhibeant quatinus in illorum comitatibus et missaticis populus iustitiam et pacem habeat et de latronibus exturbandis maximum certamen habeant et si talis malefactor aut infidelis noster emerserit ut per se illum comprehendere comes in suo comitatu non possit accipiat homines tam nostros quam episcoporum uel abbatum et abbatissarum in suo comitatu commanentes et sic illum persequatur donec comprehendat et qui ad talem malefactorem accipiendum uocatus fuerit et se inde retraxerit ut ad hoc adiutorium non praestet si liber homo fuerit bannum dominicum componat et si colonus fuerit sexaginta ictus accipiat et si talis malefactor in illa persecutione occisus fuerit qui eum occiderit leudem inde non soluat et nullus illi inde faidam portare praesumat quodsi quis facere praesumpserit per certos fideiussores ad nostram praesentiam perducatur</field>
+  </object>
+  <object model="ingobert.sample" pk="12">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 3</field>
+    <field name="text" type="TextField">de illis liberis hominibus qui infames uel clamodici sunt de tesceis et rapacitatibus uel assalturis uel de infidelitate nostra et cum furto non compraehenduntur si eis iam uita perdonata est propter aliquid malefactum fiat de illis sicut in capitulari aui et patris nostri continetur in libro iii quadragesimo septimo et xlviii capitulo et si iam de latrocinio conuicti sunt fiat de illis sicut de reuictis si autem adhuc illis uita perdonata non fuit et reuicti non sunt et res et mancipia uel mobile habent fiat de illis sicut in iiii libro capitulorum capitulo xxviiii dicitur cum ad mallum comitis uenerint si autem ad mallum non uenerint banniantur et per res et mancipia uel mobile distringantur ut ueniant si autem non uenerint fiat de illis sicut in capitulari continetur ut si post secundam comitis admonitionem ad mallum uenire noluerint rebus eorum in bannum missis uenire et iustitiam reddere compellantur et si talis est quem aut propter parentes aut propter faidam homines accusare non uoluerint aut ausi non fuerint et cum malefacto compraehensus non fuerit et negauerit iuret cum xii talibus francis quorum testimonium leges publicae non reiciunt quod tesceiam uel latrocinium aut rapinam non fecerit et post hoc iuret ipse tantum quod deinceps tesceiam uel latrocinium aut rapinam non faciat neque facienti consentiet et si scierit qui haec fecerit illis ministris nostris per quos talis causa emendari debet non celet et qui res et mancipia uel mobile non habent per quae distringi possint ut ad mallum ueniant et ibi aut se legaliter ut praemisimus excondicant aut si se excondicere non potuerint quod male fecerunt legaliter emendent post secundam bannitionem comitis si ad mallum non uenerint compraehendantur secundum prefatum capitulare libri tertii capitulo lv quo dicitur de latronibus qui magnam habent blasphemiam quicumque aliquem ex his comprehenderit nullum damnum exinde patiatur compraehensus autem si fideiussores habere potuerit per fideiussores ad mallum adducatur si fideiussores habere non potuerit a ministris comitis custodiatur et ad mallum perducatur et si aliquis eum accusauerit fiat de illo secundum praefatum capitulum libri capitularis si autem nullus eum accusauerit excondicat se praedicto modo et iuret deinceps tesceiam uel latrocinium non faciet neque facienti consentiet et si sciret qui haec faciet non celet ministris regni per quos talis causa emendari debet si uero tales ut praediximus ad mallum adduci non potuerint in forbannum mittantur et de his missi uel comites sicut supra diximus faciant et de illis qui tales receperint sicut praescripsimus fiat si autem fiscalinus noster ita infamis in fiscum nostrum confugerit uel colonus de inmunitate in inmunitatem confugerit mandet comes iudici nostro uel aduocato cuiuscumque casae dei ut talem infamem in mallo suo praesentet et si talem praesentauerit si aliquis eum comprobare uoluerit faciat et si nullus eum comprobare noluerit tamen suam infamiam ad dei iudicium purget et per illud dei iudicium aut liberetur aut condempnetur si autem iudex noster uel aduocatus de casa dei commonitus talem blasphemum comiti in mallo suo non praesentauerit fiat inde secundum capitulare libri tertii capitulo xxvi et si seruus alicuius ita clamosus est comes dominum serui commoneat ut eum in mallo suo praesentet et praesentatum si aliquis comprobare uoluerit faciat et si nullus comprobare noluerit ad dei iudicium predicto modo se examinet et per illud dei iudicium aut liberetur aut condempnetur si autem dominus serui eundem seruum suum comiti in mallo praesentare noluerit fiat inde secundum capitulare libri tertii capitulo xlvi</field>
+  </object>
+  <object model="ingobert.sample" pk="13">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 3</field>
+    <field name="text" type="TextField">de illis liberis hominibus qui infames uel clamodici sunt de tesceiis uel latrociniis et rapacitatibus et assalturis uel de infidelitate nostra et cum furto non conprehenduntur si eis iam uita perdonata est propter aliquod malefactum fiat de illis sicut in capitulari aui et patris nostri uita perdonata non fuit et reuicti non sunt et res et mancipia uel mobile habent fiat de illis sicut in quarto libro capitulorum capitulo xxuiiii dicitur cum a mallum comitis uenerint si autem ad mallum non uenerint banniantur et per res et mancipia uel mobile distringantur ut ueniant si autem non uenerint fiat de illis sicut in capitulari continetur ut si post secundam comitis admonitionem ad mallum uenire noluerint rebus eorum in bannum missis uenire et iustitiam reddere compellantur et si talis est quae aut propter parentes aut propter faidam homines accusare non uoluerint aut ausi non fuerint et cum malefacto conprehensus non fuerit et negauerit iuret cum duodecim talibus francis quorum testimonium leges publice non reiciunt quod tesceiam uel latrocinium aut rapinam non fecerit et post hoc iuret ipse tantum quod deinceps tesceiam uel latrocinium non faciet neque facienti consentiet et si scierit qui haec fecerit illis ministris per quos talis causa emendari debet non celet et qui res et mancipia uel mobile non habent per quae distringi possint ut ad mallum ueniant et ibi aut se legaliter ut premisimus excondicant aut si se excondicere non potuerint quod male fecerunt legaliter emendent post secundam bannitionem si ad mallum non uenerint conprehendantur secundum prefatum capitulare libri tertii capitulo lui quo dicitur de latronibus qui magnam habent blasphemiam quicumque aliquem ex his conprehenderit nullum damnum exinde patiatur conprehensus autem si fideiussores habere potuerit per fideiussores ad mallum adducatur si fideiussores habere non potuerit a ministris comitis custodiatur et ad mallum perducatur et si aliquis eum accusauerit fiat de illo secundum prefatum capitulum libri capitularis si autem nullus eum accusauerit excondicat se predicto modo et iuret quod deinceps tesceiam uel latrocinium non faciet neque facienti consentiet et si scierit qui hoc faciet non celet ministris regni per quos talis causa emendari debet si uero tales ut prediximus ad mallum adduci non potuerint in forbannum mittantur et de his missi uel comites sicut supra diximus faciant et de illis qui tales receperint sicut prescripsimus fiat si autem fiscalinus noster ita infamis in fiscum nostrum confugerit uel colonus de inmunitate in inmunitatem confugerit mandet comes iudici nostro uel aduocato cuiuscumque casae dei ut talem infamem in mallo suo presentet et si talem presentauerit si aliquis eum comprobare uoluerit faciat et si nullus eum comprobare uoluerit tamen suam infamiam ad dei iudicium purget et per illud dei iudicium aut liberetur aut condemnetur si autem iudex noster uel aduocatus de casa dei commonitus talem blasphemum comiti in mallo suo non presentauerit fiat inde secundum capitulare libri tertii capitulo xxui et si seruus alicuius ita clamosus est comes dominum serui commoneat ut eum in mallo presentet et presentatum si aliquis comprobare uoluerit faciat et si nullus eum comprobare uoluerit ad dei iudicium predicto modo se examinet et per illud dei iudicium aut liberetur aut condemnetur si autem dominus serui eundem seruum suum comiti in mallo presentare noluerit fiat inde secundum capitulare libri tertii capitulo xlui</field>
+  </object>
+  <object model="ingobert.sample" pk="14">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 3</field>
+    <field name="text" type="TextField">de illis liberis hominibus qui infames uel clamodici sunt de testeiis uel latrociniis et rapacitatibus et assalturis uel de infidelitate nostra et cum furto non comprehenduntur si eis iam uita perdonata est propter aliquod malefactum fiat de illis sicut in capitulari aui et patris nostri continetur in libro iii capitulo xluii et si iam de latrocinio reuicti sunt fiat de illis sicut de reuictis si autem illis adhuc uita perdonata non fuit et reuicti non sunt et res et mancipia uel mobile habent fiat de illis sicut in quarto libro capitulorum capitulo xxix dicitur cum ad mallum comitis uenerint si autem ad mallum non uenerint banniantur et per res et mancipia distringantur ut ueniant si autem non uenerint fiat de illis sicut in capitulari continetur et si post secundam comitis admonitionem ad mallum uenire noluerint rebus eorum in bannum missis uenire et iustitiam reddere compellantur et si talis est quem aut parentes aut propter faidam homines accusare noluerint aut ausi non fuerint et cum malefacto comprehensus non fuerit et negauerit iuret cum duodecim talibus francis quorum testimonium leges publicae non reiiciunt quod testeiam uel latrocinium aut rapinam non fecerit et post haec iuret ipse tantum quod deinceps testeiam uel latrocinium non faciet neque facienti consentiet et si scierit qui haec fecerit illis ministris nostris per quos talis causa emendari debet non celet et qui res et mancipia uel mobile non habent per quae distringi possint ut ad mallum ueniant et ibi aut se legaliter ut permisimus excondicant aut si se excondicere non potuerint quod male fecerint legaliter emendent post secundam bannitionem comitis si ad mallum non uenerint comprehendantur secundum praefatum capitulare libri iii capitulo lui quo dicitur de latronibus qui magnam habent blasphemiam quicumque aliquem ex his comprehenderit nullum damnum exinde patiatur comprehensus autem si fideiussores habere potuerit per fideiussores ad mallum adducatur si fideiussores habere non potuerit a ministris comitis custodiatur et ad mallum perducatur et si aliquis eum accusauerit fiat de illo secundum praefatum capitulum libri capitularis si autem eum nullus accusauerit excondicat se praedicto modo et iuret quod deinceps testeiam uel latrocinium non faciet neque facienti consentiet et si scierit qui hoc faciet non celet ministris regni per quos talis causa emendari debet si uero tales ut praediximus ad mallum adduci non potuerint in forbannum mittantur et de his missi uel comites sicut supra diximus faciant et de illis qui tales receperint sicut praescripsimus fiat si autem fiscalinus noster ita infamis in fiscum nostrum confugerit uel colonus de immunitate in immunitatem confugerit mandet comes iudici nostro uel aduocato cuiuscunque casae dei ut talem infamem in mallo suo praesentet et si talem praesentauerit si aliquis eum comprobare uoluerit faciat et si nullus eum comprobare uoluerit tamen suam infamiam ad dei iudicium purget et per illud dei iudicium aut liberetur aut condemnetur si autem iudex noster uel aduocatus de casa dei commonitus talem blasphemum comiti in mallo suo non praesentauerit fiat inde secundum capitulare libri tertii capitulo xxui et si seruus alicuius ita clamosus est comes dominum serui commoneat ut eum in mallo praesentet et praesentatum si aliquis comprobare uoluerit faciat et si nullus eum comprobare uoluerit ad dei iudicium praedicto modo se examinet et per illud dei iudicium aut liberetur aut condemnetur si autem dominus serui eundem seruum suum comiti in mallo praesentare noluerit fiat inde secundum capitulare libri tertii capitulo xlui</field>
+  </object>
+  <object model="ingobert.sample" pk="15">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 3</field>
+    <field name="text" type="TextField">de illis liberis hominibus qui infames uel clamodici sunt de testeiis uel latrociniis et rapacitatibus et assalturis uel de infidelitate nostra et cum furto non comprehenduntur si eis iam uita perdonata est propter aliquod malefactum fiat de illis sicut in capitulari aui et patris nostri continetur in libro iii capitulo xluii et si iam de latrocinio reuicti sunt fiat de illis sicut de reuictis si autem illis adhuc uita perdonata non fuit et reuicti non sunt et res et mancipia uel mobile habent fiat de illis sicut in quarto libro capitulorum capitulo xxix dicitur cum ad mallum comitis uenerint si autem ad mallum non uenerint banniantur et per res et mancipia uel mobile distringantur ut ueniant si autem non uenerint fiat de illis sicut in capitulari continetur et si post secundam comitis admonitionem ad mallum uenire noluerint rebus eorum in bannum missis uenire et iustitiam reddere compellantur et si talis est quem aut parentes aut propter faidam homines accusare noluerint aut ausi non fuerint et cum malefacto comprehensus non fuerit et negauerit iuret cum duodecim talibus francis quorum testimonium leges publicae non reiciunt quod testeiam uel latrocinium aut rapinam non fecerit et post haec iuret ipse tantum quod deinceps testeiam uel latrocinium non faciet neque facienti consentiet et si scierit qui haec fecerit illis ministris nostris per quos talis causa emendari debet non celet et qui res et mancipia uel mobile non habent per quae distringi possint ut ad mallum ueniant et ibi aut se legaliter ut praemisimus excondicant aut si se excondicere non potuerint quod male fecerint legaliter emendent post secundam bannitionem comitis si ad mallum non uenerint comprehendantur secundum praefatum capitulare libri tertii capitulo lui quo dicitur de latronibus qui magnam habent blasphemiam quicumque aliquem ex his comprehenderit nullum damnum exinde patiatur comprehensus autem si fideiussores habere potuerit per fideiussores ad mallum adducatur si fideiussores habere non potuerit a ministris comitis custodiatur et ad mallum perducatur et si aliquis eum accusauerit fiat de illo secundum praefatum capitulum libri capitularis si autem eum nullus accusauerit excondicat se praedicto modo et iuret quod deinceps testeiam uel latrocinium non faciet neque facienti consentiet et si scierit qui hoc faciet non celet ministris regni per quos talis causa emendari debet si uero tales ut praediximus ad mallum adduci non potuerint in forbannum mittantur et de his missi uel comites sicut supra diximus faciant et de illis qui tales receperint sicut praescripsimus fiat si autem fiscalinus noster ita infamis in fiscum nostrum confugerit uel colonus de immunitate in immunitatem confugerit mandet comes iudici nostro uel aduocato cuiuscumque casae dei ut talem infamem in mallo suo praesentet et si talem praesentauerit si aliquis eum comprobare uoluerit faciat et si nullus eum comprobare uoluerit tamen suam infamiam ad dei iudicium purget et per illud dei iudicium aut liberetur aut condemnetur si autem iudex noster uel aduocatus de casa dei commonitus talem blasphemum comiti in mallo suo non praesentauerit fiat inde secundum capitulare libri tertii capitulo xxui et si seruus alicuius ita clamosus est comes dominum serui commoneat ut eum in mallo praesentet et praesentatum si aliquis comprobare uoluerit faciat et si nullus eum comprobare uoluerit ad dei iudicium praedicto modo se examinet et per illud dei iudicium aut liberetur aut condemnetur si autem dominus serui eundem seruum suum comiti in mallo praesentare noluerit fiat inde secundum capitulare libri tertii capitulo xlui</field>
+  </object>
+  <object model="ingobert.sample" pk="16">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 4</field>
+    <field name="text" type="TextField">de illis hominibus qui cum karlomanno preteritis annis tanta mala et tanta scelera in regno nostro fecerunt sicut tunc et uerbis et scriptis praecepimus ita comites et missi nostri exequantur in eos in quibus nostra iussio quam consilio fidelium nostrorum iussimus exequuta non est id est ut fidelitatem nostram nobis promittant sicut tunc scariuimus et scriptam comitibus nostris dedimus et cui aliquid abstulerunt aut emendent aut depraecentur et paenitentiam faciant sicut tunc constitutum fuit et qui seniores sicut tunc praecepimus acceptos habent per fideiussores ad nostram praesentiam perducantur et alodes quos habent comites in quorum comitatibus sunt in fiscum recipiant</field>
+  </object>
+  <object model="ingobert.sample" pk="17">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 4</field>
+    <field name="text" type="TextField">de illis hominibus qui cum karlomanno preteritis annis tanta mala et tanta scelera in regno nostro fecerunt sicut tunc et uerbis et scriptis precepimus ita comites et missi nostri exequantur in eos in quibus nostra iussio quam consilio fidelium nostrorum iussimus executa non est id est ut fidelitatem nobis promittant sicut tunc scariuimus et scriptam comitibus nostris dedimus et cui aliquid abstulerunt aut emendent aut deprecentur et poenitentiam faciant sicut tunc constitutum fuit et qui seniores sicut tunc precepimus acceptos non habent per fideiussores ad nostram presentiam perducantur et alodes quos habent comites in quorum comitatibus sunt in fiscum recipiant</field>
+  </object>
+  <object model="ingobert.sample" pk="18">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 4</field>
+    <field name="text" type="TextField">de illis hominibus qui cum carlomanno praeteritis annis tanta mala et tanta scelera in regno nostro fecerunt sicut tunc et uerbis et scriptis praecepimus ita comites et missi nostri exequantur in eos in quibus nostra iussio quam consilio fidelium nostrorum iussimus executa non est id est ut fidelitatem nobis promittant sicut tunc scariuimus et scriptam comitibus nostris dedimus et cui aliquid abstulerunt aut emendent aut deprecentur et poenitentiam faciant sicut tunc constitutum fuit et qui seniores sicut tunc praecepimus acceptos non habent per fideiussores ad nostram praesentiam perducantur et alodes quos habent comites in quorum comitatibus sunt in fiscum recipiant</field>
+  </object>
+  <object model="ingobert.sample" pk="19">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 4</field>
+    <field name="text" type="TextField">de illis hominibus qui cum carlomanno praeteritis annis tanta mala et tanta scelera in regno nostro fecerunt sicut tunc et uerbis et scriptis praecepimus ita comites et missi nostri exequantur in eos in quibus nostra iussio quam consilio fidelium nostrorum iussimus executa non est id est ut fidelitatem nobis promittant sicut tunc scariuimus et scriptam comitibus nostris dedimus et cui aliquid abstulerunt aut emendent aut deprecentur et poenitentiam faciant sicut tunc constitutum fuit et qui seniores sicut tunc praecepimus acceptos non habent per fideiussores ad nostram praesentiam perducantur et alodes quos habent comites in quorum comitatibus sunt in fiscum recipiant</field>
+  </object>
+  <object model="ingobert.sample" pk="20">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 5</field>
+    <field name="text" type="TextField">ut unusquisque comes in suo comitatu praeuideat ut qui fidelitatem nobis adhuc promissam non habent fidelitatem nobis promittant sicut in capitulis aui et patris nostri continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="21">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 5</field>
+    <field name="text" type="TextField">unusquisque comes in suo comitatu prouideat ut qui fidelitatem nobis adhuc promissam non habent fidelitatem nobis promittant sicut in capitulis aui et patris nostri continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="22">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 5</field>
+    <field name="text" type="TextField">ut unusquisque comes in suo comitatu prouideat ut qui fidelitatem nobis adhuc promissam non habent fidelitatem nobis promittant sicut in capitulis aui et patris nostri continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="23">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 5</field>
+    <field name="text" type="TextField">ut unusquisque comes in suo comitatu prouideat ut qui fidelitatem nobis adhuc promissam non habent fidelitatem nobis promittant sicut in capitulis aui et patris nostri continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="24">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 6</field>
+    <field name="text" type="TextField">ut unusquisque comes in comitatu suo magnam prouidentiam accipiat ut nullus liber homo in nostro regno immorari uel proprietatem habere permittatur cuiuscumque homo sit nisi fidelitatem nobis promiserit</field>
+  </object>
+  <object model="ingobert.sample" pk="25">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 6</field>
+    <field name="text" type="TextField">ut unusquisque comes in comitatu suo magnam prouidentiam accipiat ut nullus liber homo in nostro regno immorari uel proprietatem habere permittatur cuiuscumque homo sit nisi fidelitatem nobis promiserit</field>
+  </object>
+  <object model="ingobert.sample" pk="26">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 6</field>
+    <field name="text" type="TextField">ut unusquisque comes in comitatu suo magnam prouidentiam accipiat ut nullus liber homo in nostro regno immorari uel proprietatem habere permittatur cuiuscunque homo sit nisi fidelitatem nobis promiserit</field>
+  </object>
+  <object model="ingobert.sample" pk="27">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 6</field>
+    <field name="text" type="TextField">ut unusquisque comes in comitatu suo magnam prouidentiam accipiat ut nullus liber homo in nostro regno immorari uel proprietatem habere permittatur cuiuscumque homo sit nisi fidelitatem nobis promiserit</field>
+  </object>
+  <object model="ingobert.sample" pk="28">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 7</field>
+    <field name="text" type="TextField">et quia audiuimus quod malefici homines et sortiariae per plura loca in nostro regno insurgunt quorum maleficiis iam multi homines infirmati et plures mortui sunt quoniam sicut sancti dei homines scripserunt regis ministerium est impios de terra perdere maleficos et ueneficos non sinere uiuere expresse praecipimus ut unusquisque comes in suo comitatu magnum studium adhibeat ut tales perquirantur et compraehendantur et si iam inde comprobati masculi uel comprobatae faeminae sunt sicut lex et iustitia docet disperdantur si uero nominati uel suspecti et necdum inde comprobati sunt uel per testes ueraces inde comprobari non possunt dei iudicio examinentur et sic per illud dei iudicium aut liberentur aut condempnentur et non solum tales istius mali auctores sed et conscii ac complices illorum siue masculorum siue faeminarum disperdantur ut una cum eis scientia tanti mali de terra nostra pereat</field>
+  </object>
+  <object model="ingobert.sample" pk="29">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5bis</field>
+    <field name="label" type="CharField">cap. 7</field>
+    <field name="text" type="TextField">et quia audiuimus quod malefici homines et sortiariae per plura loca in nostro regno insurgunt quorum maleficiis iam multi homines infirmati et plures mortui sunt quoniam sicut sancti dei homines scripserunt regis ministerium est impios de terra perdere maleficos et ueneficos non sinere uiuere expresse precepimus ut unusquisque comes in suo comitatu magnum studium adhibeat ut tales perquirantur et comprehenduntur et si iam inde comprobati masculi uel comprobatae femine sunt sicut lex et iustitia docet disperdantur si uero nominati uel suspecti et necdum inde comprobati sunt uel per testes ueraces inde comprobari non possunt dei iudicio examinentur et sic per illud dei iudicium aut liberentur aut condemnentur et non solum tales istius mali auctores sed et conscii et complices illorum siue masculorum siue feminarum disperdantur ut una cum eis scientia tanti mali de terra nostra pereat</field>
+  </object>
+  <object model="ingobert.sample" pk="30">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 7</field>
+    <field name="text" type="TextField">et quia audiuimus quod malefici homines et sortiariae per plura loca in nostro regno insurgunt quorum maleficiis iam multi homines informati et plures mortui sunt quoniam sicut sancti dei homines scripserunt regis ministerium est impios de terra perdere maleficos et ueneficos non sinere uiuere expresse praecipimus ut unusquisque comes in suo comitatu magnum studium adhibeat ut tales perquirantur et comprehendantur et si iam inde comprobati masculi uel comprobatae feminae sunt sicut lex et iustitia docet disperdantur si uero nominati uel suspecti et necdum inde comprobati sunt uel per testes ueraces inde comprobari non possunt dei iudicio examinentur et sic per illud dei iudicium aut liberentur aut condemnentur et non solum tales istius mali auctores sed et conscii ac complices illorum siue masculorum siue feminarum disperdantur ut una cum eis scientia tanti mali de terra nostra pereat</field>
+  </object>
+  <object model="ingobert.sample" pk="31">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 7</field>
+    <field name="text" type="TextField">et quia audiuimus quod malefici homines et sortiariae per plura loca in nostro regno insurgunt quorum maleficiis iam multi homines infirmati et plures mortui sunt quoniam sicut sancti dei homines scripserunt regis ministerium est impios de terra perdere maleficos et ueneficos non sinere uiuere expresse praecipimus ut unusquisque comes in suo comitatu magnum studium adhibeat ut tales perquirantur et comprehendantur et si iam inde comprobati masculi uel comprobatae feminae sunt sicut lex et iustitia docet disperdantur si uero nominati uel suspecti et necdum inde comprobati sunt uel per testes ueraces inde comprobari non possunt dei iudicio examinentur et sic per illud dei iudicium aut liberentur aut condemnentur et non solum tales istius mali auctores sed et conscii ac complices illorum siue masculorum siue feminarum disperdantur ut una cum eis scientia tanti mali de terra nostra pereat</field>
+  </object>
+  <object model="ingobert.sample" pk="32">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 8</field>
+    <field name="text" type="TextField">quia sicut et per scripturas et per auctoritatem et per rationem manifestum est duo sunt quibus principaliter hic mundus regitur regia potestas et pontificalis auctoritas et in libro capitulorum aui et patris nostri coniuncte ponitur ut res et mancipia ecclesiarum eo modo contineantur sicut res ad fiscum dominicum pertinentes contineri solent iuste et rationabiliter de rebus et mancipiis quae in regia et in ecclesiastica uestitura fuerunt uniformiter et uno modo tenendum est ut sicut quaecumque res et mancipia in regia uestitura aui et patris nostri et nostra fuerunt et nunc ab aliis detinentur demonstretur qualiter de regia uestitura aui et patris nostri et nostra exierunt et praecepta monstrentur qualiter inde exiert quia plures inde per mendacium quaedam obtinuerunt et quidam plura per fraudem obtinent ita et de rebus quae in ecclesiarum uestitura unde quaerimonia fuerit demonstretur qua auctoritate in proprietatem eas quique obtineant et quoniam quidam non contradicunt quod res et mancipia quae tenent in uestitura nostra uel antecessorum nostrorum siue ecclesiarum dei non fuissent sed patres illorum morientes eis in hereditatem dimiserunt ideo non uolunt inde ullam auctoritatem ostendere sed suam hereditatem probare contra illos dicitur quia potest fieri ut aliquis de fisco regio uel de rebus ecclesiae aliquid proprindat aut per fraudem optineat et mortuo illo filius eius aut filia illas res tenere in hereditatem uelit propterea per capitula aui et patris nostri quae franci pro lege tenenda iudicauerunt et fideles nostri in generale placito nostro conseruanda decreuerunt discernendum est de quali hereditate auctoritas non debet requiri sed legitima hereditas ab aliquo adprobari ostenditur enim in eisdem capitulis ubi de rebus alienis alicui per malum ingenium uenditis uel uen un datis loquitur quae sit unicuique legitima hereditas cum dicitur inter alia similiter de omnibus iustitiis ad eum pertinentibus rationem reddere compellatur excepta sua legitima hereditate quae ei per successionem parentum suorum legitime euenire debuit et de hac legitima hereditate non est auctoritas requirenda sed si interpellatio inde fuerit legitima hereditas adprobanda quia uero de rebus ex fisco regio et de rebus ecclesiasticis quae ita ut in eisdem capitulis habetur contineri debent sicut res ad fiscum dominicum pertinentes contineri solent auctoritas est requirenda per quam auctoritatem quisque illas retineat in ipsis capitulis demonstratur cum dicitur ubicumque commutationes tam tempore nostro quam tempore genitoris et aui nostri legitime et rationabiliter atque utiles ecclesiis dei factae sunt permaneant ubicumque uero inutiles et incommodae atque inrationabiles factae sunt dissoluantur et recipiat unusquisque quod dedit ubi uero mortua manus interiacet aut alia quaelibet causa quae rebellis esse uideatur inuenta fuerit diligenter describatur et ad nostram notitiam perferatur sed et iustum atque rationabiliter uidetur ut si rectores ecclesiarum neglegenter res quas acceperunt in commutationem neglexerunt et commutantes commutatas excoluerunt non compensentur excultae et neglectae aequaliter sed sicut tunc fuerunt compensentur quando commutatae fuerunt et ita compensatio ad nostram notitiam perferatur et nostro ac fidelium nostrorum iudicio utrum permanere an dissolui debeant ipsae commutationes decernatur</field>
+  </object>
+  <object model="ingobert.sample" pk="33">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 8</field>
+    <field name="text" type="TextField">quia sicut et per scripturas et per auctoritatem et per rationem manifestum est duo sunt quibus principaliter mundus hic regitur regia potestas et pontificalis auctoritas et in libro capitulorum aui et patris nostri coniuncte ponitur ut res et mancipia ecclesiarum eo modo contineantur sicut res ad fiscum dominicum pertinentes contineri solent iuste et rationabiliter de rebus et mancipiis quae in regia et in ecclesiastica uestitura fuerunt uniformiter et uno modo tenendum est ut sicut quaecumque res et mancipia in regia uestitura aui et patris nostri et nostra fuerunt et nunc ab aliis detinentur demonstretur qualiter de regia uestitura aui et patris nostri et nostra exierunt quia plures inde per mendacium quaedam obtinuerunt et quidam plura per fraudem obtinent ita et de rebus quae in ecclesiarum uestitura fuerunt unde quaestio fuerit demonstretur qua auctoritate in proprietatem eas quisque obtineant et quoniam quidam non contradicunt quod res et mancipia quae tenent in uestitura nostra uel antecessorum nostrorum siue ecclesiarum dei non fuissent sed patres illorum morientes eis in haereditatem dimiserunt ideo non uolunt inde ullam auctoritatem ostendere sed suam haereditatem probare contra illos dicitur quia potest fieri ut aliquis de fisco regio uel de rebus ecclesiae aliquid proprindat aut per fraudem obtineat et mortuo illo filius eius aut filia illas res tenere in haereditate uelit propterea per capitula aui et patris nostri quae franci pro lege tenenda iudicauerunt et fideles nostri in generali placito nostro conseruanda decreuerunt discernendum est de quali haereditate auctoritas non debet requiri sed legitima haereditas ab aliquo approbari ostenditur enim in eis capitulis ubi de rebus alienis alicui per malum ingenium uenditis uel datis loquitur quae sit unicuique legitima haereditas cum dicitur inter alia similiter de omnibus iustitiis ad eum pertinentibus rationem reddere compellatur excepta sua legitima haereditate quae ei per successionem parentum suorum legitime euenire debuit et de hac legitima haereditate non est auctoritas requirenda sed si interpellatio inde fuerit legitima haereditas approbanda quia uero de rebus ex fisco regio et de rebus ecclesiasticis quae ita ut in eisdem capitulis habetur contineri debent sicut res ad fiscum dominicum pertinentes contineri solent auctoritas est requirenda per quam auctoritatem quisque illas retineat in ipsis capitulis demonstratur cum dicitur ubicumque commutationes quae tam tempore nostro quam tempore genitoris et aui nostri legitime et rationabiliter atque utiles ecclesiis dei factae sunt permaneant ubicumque uero inutiles et incommodae atque inrationabiles factae sunt dissoluantur et recipiet unusquisque quod dedit ubi uero mortua manus interiacet aut alia quaelibet causa quae rebellis esse uideatur inuenta fuerit diligenter describatur et ad nostram notitiam perferatur sed et iustum atque rationabile uidetur ut si rectores ecclesiarum negligenter res quas acceperunt in commutationem neglexerunt et commutantes commutatas excoluerunt non compensentur excultae et neglectae aequaliter sed sicut tunc fuerunt compensentur quando commutatae fuerunt et ita compensatio ad nostram notitiam perferatur et nostro ac fidelium nostrorum iudicio utrum permanere an dissolui debeant istae commutationes decernatur</field>
+  </object>
+  <object model="ingobert.sample" pk="34">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 8</field>
+    <field name="text" type="TextField">quia sicut et per scripturas et per auctoritatem et per rationem manifestum est duo sunt quibus principaliter mundus hic regitur regia potestas et pontificalis auctoritas et in libro capitulorum aui et patris nostri coniuncte ponitur ut res et mancipia ecclesiarum eo modo contineantur sicut res ad fiscum dominicum pertinentes contineri solent iuste et rationabiliter de rebus et mancipiis quae in regia et in ecclesiastica uestitura fuerunt uniformiter et uno modo tenendum est ut sicut quaecumque res et mancipia in regia uestitura aui et patris nostri et nostra fuerunt et nunc ab aliis detinentur demonstretur qualiter de regia uestitura aui et patris nostri et nostra exierunt quia plures inde per mendacium quaedam obtinuerunt et quidam plura per fraudem obtinent ita et de rebus quae in ecclesiarum uestitura fuerunt unde quaestio fuerit demonstretur qua auctoritate in proprietatem eas quisque obtineant et quoniam quidam non contradicunt quod res et mancipia quae tenent in uestitura nostra uel antecessorum nostrorum siue ecclesiarum dei non fuissent sed patres illorum morientes eis in hereditatem dimiserunt ideo non uolunt inde ullam auctoritatem ostendere sed suam hereditatem probare contra illos dicitur quia potest fieri ut aliquis de fisco regio uel de rebus ecclesiae aliquid proprindat aut per fraudem obtineat et mortuo illo filius eius aut filia illas res tenere in hereditatem uelit propterea per capitula aui et patris nostri quae franci pro lege tenenda iudicauerunt et fideles nostri in generali placito nostro conseruanda decreuerunt discernendum est de quali hereditate auctoritas non debet requiri sed legitima hereditas ab aliquo approbari ostenditur enim in eis capitulis ubi de rebus alienis alicui per malum ingenium uenditis uel datis loquitur quae sit unicuique legitima hereditas cum dicitur inter alia similiter de omnibus iustitiis ad eum pertinentibus rationem reddere compellatur excepta sua legitima hereditate quae ei per successionem parentum suorum legitime euenire debuit et de hac legitima hereditate non est auctoritas requirenda sed si interpellatio inde fuerit legitima hereditas approbanda quia uero de rebus ex fisco regio et de rebus ecclesiasticis quae ita ut in eisdem capitulis habetur contineri debent sicut res ad fiscum dominicum pertinentes contineri solent auctoritas est requirenda per quam auctoritatem quisque illas retineat in ipsis capitulis demonstratur cum dicitur ubicumque commutationes tam tempore nostro quam tempore genitoris et aui nostri legitime et rationabiliter atque utiles ecclesiis dei factae sunt permaneant ubicumque uero inutiles et incommodae atque inrationabiles factae sunt dissoluantur et recipiat unusquisque quod dedit ubi uero mortua manus interiacet aut alia quaelibet causa quae rationabilis esse uideatur inuenta fuerit diligenter describatur et ad nostram notitiam perferatur sed et iustum atque rationabile uidetur ut si rectores ecclesiarum negligenter res quas acceperunt in commutationem neglexerunt et commutantes commutatas excoluerunt non compensentur excultae et neglectae aequaliter sed sicut tunc fuerunt compensentur quando commutatae fuerunt et ita compensatio ad nostram notitiam perferatur et nostro ac fidelium nostrorum iudicio utrum permanere an dissolui debeant istae commutationes decernatur</field>
+  </object>
+  <object model="ingobert.sample" pk="35">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 9</field>
+    <field name="text" type="TextField">ut sicut in capitulis aui et patris nostri continetur missi nostri ubi boni scabinei non sunt bonos scabineos mittant et ubicumque malos scabineos inueniunt eiciant et totius populi consensu in locum illorum bonos eligant et cum electi fuerint iurare eos faciant ut scienter iniuste non iudicent</field>
+  </object>
+  <object model="ingobert.sample" pk="36">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 9</field>
+    <field name="text" type="TextField">ut sicut in capitulis aui et patris nostri continetur missi nostri ubi boni scabinei non sunt bonos scabineos mittant et ubicumque malos scabineos inueniunt eiiciant et totius populi consensu in locum eorum bonos eligant et cum electi fuerint iurare eos faciant ut scienter iniuste non iudicent</field>
+  </object>
+  <object model="ingobert.sample" pk="37">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 9</field>
+    <field name="text" type="TextField">ut sicut in capitulis aui et patris nostri continetur missi nostri ubi boni scabinei non sunt bonos scabineos mittant et ubicumque malos scabineos inueniunt eiciant et totius populi consensu in locum eorum bonos eligant et cum electi fuerint iurare eos faciant ut scienter iniuste non iudicent</field>
+  </object>
+  <object model="ingobert.sample" pk="38">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 10</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri quicumque de scabineis deprehensus fuerit propter munera et propter amicitiam iniuste iudicasse per fideiussores missus ad presentiam nostram ueniat et ab omnibus scabineis denuntietur ne quis etiam iustum iudicium uendere presumat</field>
+  </object>
+  <object model="ingobert.sample" pk="39">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 10</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri quicumque de scabineis deprehensus fuerit propter munera aut propter amicitiam iniuste iudicasse per fideiussores missus ad praesentiam nostram ueniat et omnibus scabineis denuntietur ne quis etiam iustum iudicium uendere praesumat</field>
+  </object>
+  <object model="ingobert.sample" pk="40">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 10</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri quicumque de scabineis deprehensus fuerit propter munera aut propter amicitiam iniuste iudicasse per fideiussores missus ad praesentiam nostram ueniat et omnibus scabineis denuntietur ne quis etiam iustum iudicium uendere praesumat</field>
+  </object>
+  <object model="ingobert.sample" pk="41">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 11</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri in omni comitatu hi qui meliores et ueratiores inueniri possunt eligantur a missis nostris ad inquisitionem faciendam et rei ueritatem dicendam et ut adiutores comitum sint ad iustitias faciendas</field>
+  </object>
+  <object model="ingobert.sample" pk="42">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 11</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri in comitatu omni hi qui meliores et ueraciores inueniri possunt eligantur a missis nostris ad inquisitionem faciendam et rei ueritatem discendam et ut adiutores comitum sint ad iustitias faciendas</field>
+  </object>
+  <object model="ingobert.sample" pk="43">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 11</field>
+    <field name="text" type="TextField">uolumus ut secundum capitulare aui et patris nostri in comitatu omni hi qui meliores et ueraciores inueniri possunt eligantur a missis nostris ad inquisitionem faciendam et rei ueritatem discendam et ut adiutores comitum sint ad iustitias faciendas</field>
+  </object>
+  <object model="ingobert.sample" pk="44">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">5</field>
+    <field name="label" type="CharField">cap. 12</field>
+    <field name="text" type="TextField">uolumus ut secundum capitula aui et patris nostri et nostram ut mallus neque in ecclesiam neque in porticibus aut atrio ecclesiae neque in mansione presbyteri iuxta ecclesiam habeatur quia non est aequum ut ibi homines ad mortem iudicentur et dismembrentur et flagellentur ubi si confugerint secundum aliud capitulum pacem habere debent domus uero utilis sicut in capitulis aui et patris nostri continetur a comite in loco ubi mallum tenere debet construatur quatinus propter calorem solis et pluuiam publica utilitas non remaneat minora uero placita comes siue intra suam potestatem uel ubi impetrare potuerit excepto in ecclesiam et porticibus atque atrio ecclesiae et mansione presbyteri habeat sicut in eisdem capitulis continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="45">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Sirmond</field>
+    <field name="label" type="CharField">cap. 12</field>
+    <field name="text" type="TextField">uolumus ut secundum capitula aui et patris nostri et nostra mallus neque in ecclesia neque in porticibus aut atrio ecclesiae neque in mansione presbyteri iuxta ecclesiam habeatur quia non est aequum ut ibi homines ad mortem iudicentur et dismembrentur et flagellentur ubi si confugerint secundum aliud capitulum pacem habere debent domus uero sicut in capitulis aui et patris nostri continetur a comite in loco ubi mallum tenere debet construatur quatenus propter calorem solis et pluuiam publica utilitas non remaneat minora uero placita comes siue intra suam potestatem uel ubi impetrare potuerit excepto in ecclesia et porticibus atque atrio ecclesiae et mansione presbyteri habeat sicut in eisdem capitulis continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="46">
+    <field name="project" type="CharField">Capitulare Carisiacense</field>
+    <field name="source" type="CharField">Boretius</field>
+    <field name="label" type="CharField">cap. 12</field>
+    <field name="text" type="TextField">uolumus ut secundum capitula aui et patris nostri et nostra mallus neque in ecclesia neque in porticibus aut atrio ecclesiae neque in mansione presbyteri iuxta ecclesiam habeatur quia non est aequum ut ibi homines ad mortem iudicentur et dismembrentur et flagellentur ubi si confugerint secundum aliud capitulum pacem habere debent domus uero sicut in capitulis aui et patris nostri continetur a comite in loco ubi mallum tenere debet construatur quatenus propter calorem solis et pluuiam publica utilitas non remaneat minora uero placita comes siue intra suam potestatem uel ubi impetrare potuerit excepto in ecclesia et porticibus atque atrio ecclesiae et mansione presbyteri habeat sicut in eisdem capitulis continetur</field>
+  </object>
+  <object model="ingobert.sample" pk="47">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 1, d.init.</field>
     <field name="text" type="TextField">quidam habens filium obtulit eum ditissimo cenobio exactus ab abbate et a fratribus decem libras soluit ut filius susciperetur ipso tamen beneficio etatis hoc ignorante creuit puer et per incrementa temporum et offitiorum ad uirilem etatem et sacerdotii gradum peruenit exinde suffragantibus meritis in episcopum eligitur interueniente obsequio et paternis precibus data quoque pecunia cuidam ex consiliariis archiepiscopi consecratur iste in antistitem nescius paterni obsequii et oblatae pecuniae procedente uero tempore nonnullos per pecuniam ordinauit quibusdam uero gratis benedictionem sacerdotalem dedit tandem apud metropolitanum suum accusatus et conuictus sententiam in se dampnationis accepit hic primum queritur an sit peccatum emere spiritualia secundo an pro ingressu ecclesiae sit exigenda pecunia uel si exacta fuerit an sit persoluenda tertio an ingressum ecclesiae uel prebendas emere sit symoniacum quarto an iste sit reus criminis quod eo ignorante pater admisit quinto an liceat ei esse in ecclesia uel fungi ea ordinatione quam paterna pecunia est assecutus sexto an illi qui ab eo iam symoniaco ignoranter ordinati sunt sint abiciendi an non septimo si renuncians suae heresi sit recipiendus in episcopali dignitate uel non</field>
   </object>
-  <object model="ingobert.sample" pk="9">
+  <object model="ingobert.sample" pk="48">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 2, d.init.</field>
     <field name="text" type="TextField">quidam episcopus de lapsu carnis a laico inpetitur duo monachi unus subdiaconus et duo leuitae aduersus ipsum testimonium ferunt a metropolitano suo sentit se pregrauari in ipsa uentilatione causae tres ex testibus deficiunt siue promissione decepti siue canonica examinatione reprobati expoliatur tamen episcopus quia crimen eius notorium erat hic primum queritur an in manifestis iudiciarius ordo sit requirendus secundo an expoliatus ab aliquo sit iudicandus tertio qua pena sint feriendi qui in accusatione uel testificatione defecerint quarto si duorum testimonio sit condempnandus quinto si deficientibus accusatoribus sit cogendus ad purgationem sexto si remedium sit dandum ei qui causa dilationis uocem appellationis exhibuerit septimo si laici monachi uel quilibet inferiorum ordinum in accusatione maiorum sint audiendi octauo quomodo fieri debeat accusatio an in scriptis an sine scripto</field>
   </object>
-  <object model="ingobert.sample" pk="10">
+  <object model="ingobert.sample" pk="49">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 3, d.init.</field>
     <field name="text" type="TextField">quidam episcopus a propria sede deiectus est petit restitui post restitutionem ducitur in causam inducias postulat tandem ad eius accusationem procedit quidam non legitime coniunctus et duo infames et tres religiosi accusatores testes de domo sua producunt et alios sibi inimicos extra suam prouinciam reus criminoso iudici offertur ab uno tantum audiendus et iudicandus quidam de accusatoribus et testibus absentes per epistolam illum accusare et in eum testificari contendunt cum multa capitula ei obicerentur in primo accusatores deficiunt demum accusatio in accusatorem uertitur hic primum queritur an restitutio danda sit quibuslibet expoliatis secundo de induciis an post restitutionem tantum an etiam post uocationem ad causam quibuslibet concedendae sint tertio quo spatio mensium utrique sint concedendae quarto an infames et non legitime coniuncti ad accusationem sint admittendi quinto an testes de domo accusatorum sint producendi uel inimicorum uox sit audienda sexto an extra prouinciam reus sit producendus septimo an sit audienda eius sententia quem cum reo par inficit malicia octauo an ab uno tantum episcopus sit audiendus uel iudicandus nono an accusatores uel testes in absentem uocem accusationis uel testificationis exhibere ualeant decimo an deficientes in primo capitulo sint admittendi ad sequentia undecimo an accusato liceat accusationem in accusatorem uertere</field>
   </object>
-  <object model="ingobert.sample" pk="11">
+  <object model="ingobert.sample" pk="50">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 4, d.init.</field>
     <field name="text" type="TextField">quidam in excommunicatione constitutus episcopum accusare disponit adolescentem infra decimum et quartum etatis suae annum ad assertionem suae causae adducit prohibitus ab accusatione adolescentem accusatorem et se testem facit adolescens personam accusatoris et testis gerere cupit die statuta ad electorum iudicum iudicium episcopus minime occurrit a communione suspenditur tandem renouato iudicio accusator culpabilis in accusatione inuenitur demum ad assertionem propriae causae procedit hic primum queritur an in excommunicatione constitutus alium accusare ualeat secundo an infra decimum quartum annum in criminali causa testari quis possit tertio utrum ab accusatione prohibitus personam testificantis possit assumere quarto an idem possit esse accusator et testis quinto an die constituta non occurrens a communione ait remouendus sexto si in episcoporum indicio accusatoris persona culpabilis inuenta fuerit an ad assertionem propriae causae de cetero sit admittenda</field>
   </object>
-  <object model="ingobert.sample" pk="12">
+  <object model="ingobert.sample" pk="51">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 5, d.init.</field>
     <field name="text" type="TextField">in infamiam cuiusdam episcopi cartula accusationis occulte conscribitur tandem accusator procedit in publicum episcopus semel litteris euocatus causae suae die statuta adesse non ualens per procuratorem iudici se representauit absque sinodali audientia dampnatur demum iudicio per appellationem renouato de accusatoris inimicitia episcopus conqueritur tandem in probatione deficit accusator primo queritur qua pena sit feriendus qui famosum libellum clanculo scribens probare negligit que litteris mandauit secundo quotiens sit uocandus ad causam ante quam sententiam dampnationis excipiat tertio an per procuratorem causam suam agere ualeat qui per se ipsum causae suae adesse non potest quarto an absque sinodali audientia sit dampnandus quinto an ideo aliquis sit habendus inimicus quia crimen alterius indicat sexto qua pena sit plectendus qui quod intulit probare non ualet</field>
   </object>
-  <object model="ingobert.sample" pk="13">
+  <object model="ingobert.sample" pk="52">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 6, d.init.</field>
     <field name="text" type="TextField">duo fornicatores et infamia notati quendam religiosum episcopum de symonia accusare nituntur reus alterius prouinciae archiepiscopi iudicium expetit tandem in probatione deficit accusator reus cogitur ad innocentiae suae assertionem primo queritur an crimine irretiti uel infamia notati ad huiusmodi accusationem sint admittendi secundo si episcopus in eos accusationem uertere uoluerit an simplici assertioni suae sit fides habenda tertio si liceat sibi expetere iudicium archiepiscopi alterius prouinciae quarto cuius iudicium sibi sit expetendum si circa suam sententiam episcopos suae prouinciae discordare contigerit quinto si in probatione deficit accusator an reus sit cogendus ad probationem innocentiae suae</field>
   </object>
-  <object model="ingobert.sample" pk="14">
+  <object model="ingobert.sample" pk="53">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 7, d.init.</field>
     <field name="text" type="TextField">quidam longa inualetudinem grauatus episcopus alium sibi substitui rogauit cuius precibus summus pontifex annuit et quod rogauerat ei concessit postea uero conualuit idem episcopus et quod prius fecerat cupit rescindi aduersus eum qui sibi accesserat questionem mouet suam cathedram tamquam sibi debitam reposcit hic primum queritur utrum uiuente episcopo alius possit in ecclesia eadem ordinari secundo an iste ualeat reposcere cathedram quam sua intercessione alter accepit</field>
   </object>
-  <object model="ingobert.sample" pk="15">
+  <object model="ingobert.sample" pk="54">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 8, d.init.</field>
     <field name="text" type="TextField">in extremis agens quidam episcopus successorem sibi ex testamento instituit inde suorum amicorum patrocinio in eundem episcopatum eligitur post electionem pro indempnitate ecclesiae canonicis iuramentum prebuit accusatur de symonia tamquam munus ab obsequio prestiterit ante tempus sententiae a clericis suis derelinquitur sine litteris apostolici ad ecclesiam suam episcopus reuertitur hic primo queritur an liceat episcopo successorem sibi instituere secundo an amicorum patrocinia in electione debeant conualescere tertio an habendus sit symoniacus qui post electionem huiuscemodi iuramentum canonicis prestat quarto an liceat clericis ante sententiae tempus ab episcopo suo discedere quinto an sine litteris apostolici debeat redire ad propriam ecclesiam</field>
   </object>
-  <object model="ingobert.sample" pk="16">
+  <object model="ingobert.sample" pk="55">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 9, d.init.</field>
     <field name="text" type="TextField">sententia excommunicationis notatus quidam archiepiscopus aliquot clericos alterius metropolitani ordinauit quendam capellanum sui suffraganei illo inconsulto deposuit atque alium in loco eius ordinauit queritur an ordinatio que ab excommunicatis facta est aliquo modo possit rata haberi secundo an liceat episcopo archiepiscopo primati uel patriarchae clericos alterius sine litteris propriis ordinare tertio an archiepiscopus clericos suffraganei sui illo inconsulto dampnare ualeat uel dampnatos absoluere</field>
   </object>
-  <object model="ingobert.sample" pk="17">
+  <object model="ingobert.sample" pk="56">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 10, d.init.</field>
     <field name="text" type="TextField">quidam laicus basilicam a se factam a diocesiana lege segregare querit episcopus ecclesiam cum omni dote sua ad suam dispositionem pertinere contendit tandem euincit episcopus per parrochias militibus comitatus crudeliter deseuit que ecclesiarum sunt tamquam sibi debita usurpare contendit modo primum queritur an basilica cum omni dote sua ad episcopi ordinationem pertineat secundo an res ecclesiarum episcopis usurpare liceat tertio quid nomine cathedratici a suis sacerdotibus exigere ualeat</field>
   </object>
-  <object model="ingobert.sample" pk="18">
+  <object model="ingobert.sample" pk="57">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 11, d.init.</field>
     <field name="text" type="TextField">clericus aduersus clericum questionem de prediis agitauit quem ad ciuilem iudicem producere uoluit reus non nisi ante iudicem ecclesiasticum stare uolebat actor uero potentia ciuilis iudicis illum a possessione sua deiecit quo audito episcopus eum ab offitio suspendit ille contempta episcopi sui sententia offitium suum administrauit hoc conperto episcopus sine spe restitutionis in eum sententiam dedit hic primum queritur utrum clericus ante ciuilem iudicem sit producendus secundo si producendus non est an hec culpa sit digna suspensione tertio si digna non fuerit an contemptorem sententiae sui episcopi inreparabiliter oporteat deponi</field>
   </object>
-  <object model="ingobert.sample" pk="19">
+  <object model="ingobert.sample" pk="58">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 12, d.init.</field>
     <field name="text" type="TextField">quidam clerici propria relinquere uolunt de suis et ecclesiae rebus testamenta conficiunt de rebus ecclesiae nonnulla largiuntur modo primum queritur utrum clericis liceat proprium habere secundo an res ecclesiae que ab eis datae sunt possint constare aliqua firmitate eis qui eas acceperunt tertio si ante tempus suae ordinationis qui nichil habere uidebantur et post ordinationem aliqua inuenisse noscuntur an possint ea quibus uoluerint relinquere an non quarto si de suis et ecclesiae rebus aliqua acquisisse noscuntur an utrique communiter an singulariter ecclesiae uel sacerdoti iure proueniant quinto si testamenta eis liceat conficere</field>
   </object>
-  <object model="ingobert.sample" pk="20">
+  <object model="ingobert.sample" pk="59">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 13, d.init.</field>
     <field name="text" type="TextField">diocesiani cuiusdam baptismalis ecclesiae cladibus bellorum pressi hostili metu conpulsi domicilia sua transtulerunt in aliam diocesim predia tamen antiqua non desierunt colere ceperunt persoluere decimas illi ecclesiae in cuius diocesim transierunt et apud eam sibi elegerunt sepulturas transactis quinquaginta annis clerici quibus quondam persoluerant decimas ceperunt mouere questionem in eos qui ab istis accipiunt primicias et decimas ueniunt ad causam modo primum queritur si illi quorum domicilia sunt in diocesi huius baptismalis ecclesiae an debeant persoluere decimas et celebrare suas exequias apud eam ecclesiam in qua quondam hec fiebant a parentibus eorum secundo an prescriptione temporis ius percipiendi decimas et funerandi tollatur</field>
   </object>
-  <object model="ingobert.sample" pk="21">
+  <object model="ingobert.sample" pk="60">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 14, d.init.</field>
     <field name="text" type="TextField">canonici cuiusdam ecclesiae questionem mouent de prediis testes ex fratribus suis producunt negociatoribus pecuniam crediderunt ut ex eorum mercibus emolumenta acciperent queritur an liceat eis repetere sua secundo an illi testes sint audiendi tertio an illud sit usuras exigere quarto an liceat clericis uel laicis a quolibet usuras expetere quinto an elemosinae de usuris fieri possint sexto an usurarii penitenciam agere ualeant nisi quod male acceperunt restituant</field>
   </object>
-  <object model="ingobert.sample" pk="22">
+  <object model="ingobert.sample" pk="61">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 15, d.init.</field>
     <field name="text" type="TextField">clericus quidam crimine carnis lapsus esse perhibetur ante quam sacerdotalem benedictionem consequeretur postquam uero sacerdotium adeptus est in furorem uersus quendam interfecit recuperata uero sanitate apud episcopum accusatur ab ea cum qua lapsus esse dicitur episcopus autem die dominico causam examinat sacerdos inficiatur crimen sibi illatum quorundam clericorum sibi patrocinia querit illi uero non sine precio sibi patrocinantur tandem episcopus questionibus confessionem extorquet demum solus et absque sinodali audientia illum sententia ferit queritur autem an ea que mente alienata fiunt sint inputanda secundo an pro inpensis patrociniis liceat clericis munera exigere tertio an ex mulieris confessione iste sit condempnandus quarto an die dominico eius causa sit uentilanda quinto an sibi neganti purgatio sit deferenda sexto an eius confessio cruciatibus sit extorquenda septimo an absque sinodali audientia episcopus ualeat sacerdotem dampnare octauo si sponte confessus aut ab aliis conuictus fuerit quod ante ordinationem peccauerit an suscepti ordinis offitium sibi exequi liceat</field>
   </object>
-  <object model="ingobert.sample" pk="23">
+  <object model="ingobert.sample" pk="62">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 16, d.init.</field>
     <field name="text" type="TextField">quidam abbas habebat parrochitanam ecclesiam instituit ibi monachum ut offitium celebraret populo possedit eam per quadraginta annos sine aliqua interpellatione tandem querela aduersus abbatem mouetur a clericis baptismalis ecclesiae in cuius diocesi parrochitana ecclesia illa consistebat hic primum queritur utrum monachis liceat offitia populis celebrare penitenciam dare et baptizare secundo si contigerit eos capellas habere episcopali beneficio an ab eis sint instituendae an ab episcopis tertio an iura ecclesiarum prescriptione tollantur quarto si ecclesia aduersus ecclesiam prescribat an etiam monasterium aduersus ecclesiam prescribere possit quinto si capellam in suo territorio edificatam iure territorii sibi uendicare ualeat sexto si archipresbiter uel episcopus sua auctoritate non iudiciaria sententia capellam illam inrepserit an cadat a causa ut ecclesia cui presidet non ultra habeat ius reposcendi quod suus pastor illicite usurpauit septimo queritur si laici capellam illam tenebant ut quibusdam moris est et in manibus abbatis eam refutauerint et ordinandam tradiderint an consensu episcopi et clericorum abbas possit eam tenere</field>
   </object>
-  <object model="ingobert.sample" pk="24">
+  <object model="ingobert.sample" pk="63">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 17, d.init.</field>
     <field name="text" type="TextField">quidam presbiter infirmitate grauatus fieri se uelle monachum dixit ecclesiae et beneficio in manu aduocati renunciauit postquam conualuit mox se futurum monachum negauit ecclesiam et beneficium reposcit hic primum queritur utrum reus uoti teneatur an liceat ei a proposito sui cordis discedere secundo an ecclesia et beneficium ei reddenda sint que prius libera uoluntate refutauit tertio si contigisset eum se et sua monasterio tradidisse an licentia abbatis liceret ei ad propria redire quarto si sine licentia abbatis retro abierit an sua sibi abbate reddenda sint</field>
   </object>
-  <object model="ingobert.sample" pk="25">
+  <object model="ingobert.sample" pk="64">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 18, d.init.</field>
     <field name="text" type="TextField">quidam abbas consecratus in episcopum prius monasterio multa contulit postea in episcopatu plura acquisiuit cui dum fratres successorem quererent episcopus loci semet electioni uolebat inserere ut per ipsum abbas in monasterio ordinaretur fratres renituntur queritur an monasterium possit petere que ab episcopo acquisita sunt an episcopalis ecclesia possit sibi uendicare que monasterio fuerant contradita secundo an per episcopum abbas sit eligendus et ordinandus an tantummodo a propriis fratribus sit instituendus</field>
   </object>
-  <object model="ingobert.sample" pk="26">
+  <object model="ingobert.sample" pk="65">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 19, d.init.</field>
     <field name="text" type="TextField">duo clerici ad monasterium transire uolunt uterque licentiam ab episcopo suo petiit unus relicta propria ecclesia eo inuito alter dimissa regulari canonica cenobio se contulit modo queritur si episcopus debeat permittere ut relicta propria ecclesia clericus monasterium ingrediatur secundo queritur si episcopus licentiam dare noluerit an eo inuito monasterium possit adire tertio si contigerit ipsos regulares canonicos fuisse utrum concedendus esset eis monasterii ingressus</field>
   </object>
-  <object model="ingobert.sample" pk="27">
+  <object model="ingobert.sample" pk="66">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 20, d.init.</field>
     <field name="text" type="TextField">duo pueritiae annos agentes a parentibus monasterio traditi sunt unus inuitus alter spontaneus cucullam induit ad annos pubertatis uenientes inuitus ad secularem miliciam redit spontaneus monasterium districtius petit nunc primum queritur si in pueritiae annis traditi cogantur religionis propositum tenere secundo si preter uoluntatem parentum tonsuram uel religionis uestem quis in pueritia accipiat an possit sibi detrahi an non tertio qui preter propriam uoluntatem cucullam induerit an cogatur eam retinere an non quarto si ab uno monasterio in aliud districtius liceat alicui transire</field>
   </object>
-  <object model="ingobert.sample" pk="28">
+  <object model="ingobert.sample" pk="67">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 21, d.init.</field>
     <field name="text" type="TextField">archipresbiter cuiusdam ecclesiae preposituram alterius accepit nec priorem uult relinquere secularium quoque negociorum procurator efficitur claris et fulgidis uestibus se exornans ab episcopo suo corrigitur relicto suo offitio ad secularem iudicem habet confugium queritur an clericus in duabus ecclesiis possit conscribi secundo si unam uoluerit relinquere an liceat ei ad aliam transire tertio an procurationes secularium negociorum clericis liceat suscipere quarto an claris et fulgidis uestibus eis ornari expediat quinto an ab episcopo correpti suum offitium relinquere et ad secularem iudicem confugere ualeant</field>
   </object>
-  <object model="ingobert.sample" pk="29">
+  <object model="ingobert.sample" pk="68">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 22, d.init.</field>
     <field name="text" type="TextField">quidam episcopus iurauit falsum quod putabat uerum quo conperto archidiaconus eius iurauit se numquam prestaturum ei obedientiam conpellitur archidiaconus ab episcopo ad exhibendum sibi consuetam reuerentiam accusatur episcopus de dupplici periurio et de eo quod falsum iurauit et quia archidiaconum ad peierandum conpellit primum queritur an iuramentum sit prestandum uel non secundo si sit periurus qui iurat falsum quod putat uerum tertio si licuit archidiacono denegare episcopo consuetam obedientiam quarto si constiterit esse illicitum quod iurauit archidiaconus an sit seruandum quinto si constiterit illud seruandum esse an episcopus sit reus periurii qui contra iuramentum archidiaconum suum ire conpellit</field>
   </object>
-  <object model="ingobert.sample" pk="30">
+  <object model="ingobert.sample" pk="69">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 23, d.init.</field>
     <field name="text" type="TextField">quidam episcopi cum plebe sibi conmissa in heresim lapsi sunt circumadiacentes catholicos minis et cruciatibus ad heresim conpellere ceperunt quo conperto apostolicus catholicis episcopis circumadiacentium regionum qui ab inperatore ciuilem iurisdictionem acceperant inperauit ut catholicos ab hereticis defenderent et quibus modis possent eos ad fidei ueritatem redire conpellerent episcopi hec mandata apostolica accipientes conuocatis militibus aperte et per insidias contra hereticos pugnare ceperunt tandem nonnullis eorum neci traditis aliis rebus suis uel ecclesiasticis expoliatis aliis carcere et ergastulo reclusis ad unitatem catholicae fidei coacti redierunt hic primum queritur an militare peccatum sit secundo quod bellum sit iustum et quomodo a filiis israel iusta bella gerebantur tertio an iniuria sociorum armis sit propulsanda quarto an uindicta sit inferenda quinto an sit peccatum iudici uel ministro reos occidere sexto an mali sint cogendi ad bonum septimo an heretici suis et ecclesiae rebus sint expoliandi et qui possidet ab hereticis ablata an dicatur possidere aliena octauo an episcopis uel quibuslibet clericis sua liceat auctoritate uel apostolici uel inperatoris precepto arma mouere</field>
   </object>
-  <object model="ingobert.sample" pk="31">
+  <object model="ingobert.sample" pk="70">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 24, d.init.</field>
     <field name="text" type="TextField">quidam episcopus in heresim lapsus aliquos de sacerdotibus suis offitio priuauit et sentencia excommunicationis notauit post mortem de heresi accusatus dampnatur et sequaces eius cum omni familia sua hic primum queritur an lapsus in heresim possit aliquos offitio priuare uel sentencia notare secundo an post mortem aliquis possit excommunicari tertio an pro peccato alicuius tota familia sit excommunicanda</field>
   </object>
-  <object model="ingobert.sample" pk="32">
+  <object model="ingobert.sample" pk="71">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 25, d.init.</field>
     <field name="text" type="TextField">sancta romana ecclesia quandam baptismalem ecclesiam suis muniuit priuilegiis decimationes suae diocesis ex integro sibi attribuens item quoddam monasterium similiter muniuit priuilegiis propriis decernens ut ex propriis prediis nulli decimas persolueret accidit itaque ut intra diocesim premunitae baptismalis ecclesiae prefatum monasterium alia emptione alia donatione predia sibi inueniret oritur itaque contentio inter monachos et clericos de decimis nunc primum queritur an clerici baptismalis ecclesiae auctoritate priuilegii decimas suae diocesis ex integro sibi ualeant uendicare secundo an subsequenti priuilegio monachorum derogetur antiquioribus priuilegiis baptismalium ecclesiarum</field>
   </object>
-  <object model="ingobert.sample" pk="33">
+  <object model="ingobert.sample" pk="72">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 26, d.init.</field>
     <field name="text" type="TextField">quidam sacerdos sortilegus esse et diuinus conuincitur apud episcopum correctus ab episcopo noluit cessare excommunicatur tandem agens in extremis reconciliatur a quodam sacerdote episcopo inconsulto indicitur penitencia sibi sub quantitate temporis canonibus prefixa primum queritur qui sint sortilegi secundo an sit peccatum esse sortilegum tertio a quibus genus diuinationis sumpsit exordium quarto quot sint genera diuinationis quinto an sortilegi uel diuini sint excommunicandi si cessare noluerint sexto an excommunicatus ab episcopo possit reconciliari a presbitero illo inconsulto septimo si morientibus est indicenda penitencia sub quantitate temporis</field>
   </object>
-  <object model="ingobert.sample" pk="34">
+  <object model="ingobert.sample" pk="73">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 27, d.init.</field>
     <field name="text" type="TextField">quidam uotum castitatis habens desponsauit sibi uxorem illa priori condicioni renuncians transtulit se ad alium et nupsit illi ille cui prius desponsata fuerat repetit eam hic primum queritur an coniugium possit esse inter uouentes secundo an liceat sponsae a sponso recedere et alii nubere</field>
   </object>
-  <object model="ingobert.sample" pk="35">
+  <object model="ingobert.sample" pk="74">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 28, d.init.</field>
     <field name="text" type="TextField">quidam infidelis in coniugio positus ad fidem conuersus est uxor uero odio christianae fidei ab eo discessit ille quamdam fidelem in uxorem accepit qua mortua clericus efficitur tandem uitae et scientiae merito in episcopum eligitur hic primum queritur an coniugium sit inter infideles secundo an liceat huic aliam ducere priore uiuente tercio an sit reputandus bigamus qui ante baptismum habuit unam et post baptismum alteram</field>
   </object>
-  <object model="ingobert.sample" pk="36">
+  <object model="ingobert.sample" pk="75">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 29, d.init.</field>
     <field name="text" type="TextField">cuidam nobili mulieri nunciatum est quod a filio cuiusdam nobilis petebatur in coniugem prebuit illa assensum alius uero quidam ignobilis atque seruilis condicionis nomine illius se ipsum obtulit atque eam in coniugem accepit ille qui sibi prius placuerat tandem uenit eamque sibi in coniugem petit illa se delusam conqueritur et ad prioris copulam aspirat hic primum queritur an sit coniugium inter eos secundo si prius putabat hunc esse liberum et postea deprehendit illum esse seruum an liceat ei statim ab illo discedere</field>
   </object>
-  <object model="ingobert.sample" pk="37">
+  <object model="ingobert.sample" pk="76">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 30, d.init.</field>
     <field name="text" type="TextField">populorum frequentia quidam inpeditus filium suum de baptismate suscepit dum crederet se alienum suscipere uxor eius dum callide uellet suscipere proprium suscepit alienum quem uir adoptauit sibi in filium et ex uxore sibi filia nascitur quam filio suo adoptiuo spirituali uxoris dum uterque esset in cunabulis tradidit post triennium uxor moritur et conpater eius relictam conpatris uxoris suae uir clam sibi desponsauit aliquantulum temporis effluxit et alius publice duxit eam in uxorem queritur an uxori suae debitum reddere ualeat qui proprium filium de sacro baptismate suscepit secundo an sponsalia contrahantur inter infantes tertio an spirituales uel adoptiui filii naturalibus copulari ualeant quarto an uxorem conpatris uxoris suae alicui ducere liceat quinto an clandestina desponsatio manifestae preiudicet</field>
   </object>
-  <object model="ingobert.sample" pk="38">
+  <object model="ingobert.sample" pk="77">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 31, d.init.</field>
     <field name="text" type="TextField">uxorem cuiusdam alius constuprauit eo mortuo adulter adulteram sibi in uxorem accepit filiam ex ea susceptam cuidam in coniugem se daturum iurauit illa assensum non prebuit deinde pater alii eam tradidit a primo reposcitur queritur an possit duci in coniugium que prius est polluta per adulterium secundo an filia sit tradenda inuita alicui tertio an post patris sponsionem illa possit nubere alii</field>
   </object>
-  <object model="ingobert.sample" pk="39">
+  <object model="ingobert.sample" pk="78">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 32, d.init.</field>
     <field name="text" type="TextField">quidam cum non haberet uxorem quandam meretricem sibi coniugio copulauit que erat sterilis neptis ingenui filia originarii quam cum pater uellet alii tradere auus huic eam copulauit causa solius incontinentiae deinde hic penitencia ductus ex ancilla propria filios sibi querere cepit postea de adulterio conuictus et punitus quendam rogauit ut ui uxorem suam opprimeret ut sic eam dimittere posset quo facto quandam infidelem sibi copulauit ea tamen condicione ut ad christianam religionem transiret hic primum queritur an licite meretrix ducatur in uxorem secundo an ea que causa incontinenciae ducitur sit coniux appellanda tercio cuius arbitrium aliqua sequatur an liberi aui an originarii patris quarto si uiuente uxore liceat alicui ex ancilla filios querere quinto si ea que uim patitur pudicitiam amittere conprobetur sexto si adulter adulteram possit dimittere septimo si uiuente dimissa aliam possit accipere octauo si infidelem sub premissa condicione licet alicui fidelium in coniugem ducere</field>
   </object>
-  <object model="ingobert.sample" pk="40">
+  <object model="ingobert.sample" pk="79">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 33, d.init.</field>
     <field name="text" type="TextField">quidam uiri maleficiis inpeditus uxori suae debitum reddere non poterat alius interim clanculo eam corrupit a uiro suo separata corruptori suo publice nubit crimen quod admiserat corde tantum deo confitetur redditur huic facultas cognoscendi eam repetit uxorem suam qua recepta ut expedicius uacaret orationi et ad carnes agni purus accederet continentiam se seruaturum promisit uxor uero consensum non adhibuit queritur an propter inpossibilitatem coeundi a uiro suo aliqua sit separanda secundo an post separationem ei nubere ualeat cum quo prius fornicata est tertio si sola confessione cordis crimen possit deleri quarto si tempore orationis quis ualeat reddere coniugii debitum quinto an uir sine consensu uxoris continenciam uouere possit uel si minis uel terroribus licentiam uouendi ab ea extorquere ualeat</field>
   </object>
-  <object model="ingobert.sample" pk="41">
+  <object model="ingobert.sample" pk="80">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 34, d.init.</field>
     <field name="text" type="TextField">quidam uir in captiuitatem ductus est postea uxor eius audiens illum mortuum nupsit alii demum ille de captiuitate rediens repetit uxorem suam illa posterioris amore capta aspernatur thorum prioris nunc primum queritur an sit rea adulterii que uiuente uiro suo alteri nupsit secundo an redeunte primo sit cogenda recedere a secundo et redire ad primum</field>
   </object>
-  <object model="ingobert.sample" pk="42">
+  <object model="ingobert.sample" pk="81">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 35, d.init.</field>
     <field name="text" type="TextField">quidam mortua uxore sua aliam sibi matrimonio copulauit que uxori defunctae quarto gradu consanguinitatis uiro autem sexta linea adherebat post triennium uero susceptis ex ea liberis accusatur apud ecclesiam iste pretendit ignorantiam hic primum queritur si liceat aliquam ex propria cognatione duci in uxorem secundo si ex consanguinitate uxoris aliqua possit in coniugem duci tertio usque ad quem gradum quisque debeat abstinere siue a propriis siue ab uxoris suae consanguineis quarto quare usque ad septimum gradum consanguinitas conputatur ita quod nec ultra protenditur nec infra subsistit quinto quomodo gradus consanguinitatis conputandi sunt sexto qui iureiurando propinquitatem firmare debeant septimo an illi qui de incestuosis nati sunt filii reputentur octauo si ignoranter aliqua de consanguinitate uel affinitate in uxorem ducta est an ex dispensatione uiro suo possit adherere nono si contigerit ecclesiam decipi et causa consanguinitatis aliquam a uiro suo separare que post quadriennium nuptiis hinc inde celebratis deprehenditur non fuisse consanguinea prioris an secunda coniugia sint rescindenda et priora sint redintegranda decimo si relicta alicuius de propria cognatione ad secundas nuptias transierit an proles ex eis suscepta possit pertingere ad consortium alicuius de cognatione prioris uiri</field>
   </object>
-  <object model="ingobert.sample" pk="43">
+  <object model="ingobert.sample" pk="82">
     <field name="project" type="CharField">Gratian</field>
-    <field name="source" type="CharField">edF</field>
+    <field name="source" type="CharField">Fr.</field>
     <field name="label" type="CharField">C. 36, d.init.</field>
     <field name="text" type="TextField">filiam cuiusdam patre ignorante quidam muneribus illexit ad conuiuium inuitauit finito conuiuio iuuenis uirginem oppressit quo conperto a parentibus iuueni traditur puella ac more nubentium a iuuene dotatur et publice in uxorem ducitur queritur an ille raptum admiserit secundo an rapta raptori nubere possit patre assensum prestante</field>
   </object>
-  <object model="ingobert.sample" pk="44">
+  <object model="ingobert.sample" pk="83">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 1, d.init.</field>
+    <field name="text" type="TextField">quidam habens filium obtulit eum ditissimo cenobio exactus abbate et fratribus x libras solvit ut filius susciperetur ipso tamen benefitio etatis hoc ignorante crevit puer et per incrementa temporum et officiorum ad virilem etatem et sacerdotii gradum pervenit exinde suffragantibus meritis in episcopum eligitur interveniente obsequio et paternis precibus data quoque pecunia cuidam ex consiliariis archiepiscopi consecratur iste in antistitem nescius paterni obsequii et oblate pecunie procedente vero tempore nonnullos per pecuniam ordinavit quibusdam vero gratis benedictionem sacerdotalem dedit tandem apud metropolitanum suum accusatus et convictus sententiam in se dampnationis accepit hic primum queritur an sit peccatum emere spiritualia secundo an pro ingressu ecclesie sit exigenda pecunia vel si exacta fuerit an sit persolvenda pro ecclesie ingressu tercio an ingressum vel prebendas ecclesie emere sit symoniacum quarto an iste sit reus criminis quod eo ignorante pater ammisit quinto an liceat ei esse in ecclesia vel fungi ordinatione quam paterna pecunia est assecutus sexto an illi qui ab eo iam symoniaco ignoranter ordinati sunt sint abiciendi aut non septimo si renuntians sue heresi sit recipiendus in episcopali dignitate vel non</field>
+  </object>
+  <object model="ingobert.sample" pk="84">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 2, d.init.</field>
+    <field name="text" type="TextField">quidam episcopus de lapsu carnis a laico inpetitur duo monachi unus subdiaconus et duo levite adversus ipsum testimonium ferunt a metropolitano suo sentit se pregravari in ipsa ventilatione cause tres ex testibus deficiunt sive promissione decepti sive canonica examinatione reprobati expoliatur tamen episcopus quia crimen eius notorium erat hic primum queritur an in manifestis iudiciarius ordo sit requirendus secundo an expoliatus ab aliquo sit iudicandus tertio qua pena sint feriendi qui in accusatione vel testificatione defecerint quarto si duorum testimonio sit condempnandus quinto si deficientibus accusatoribus sit cogendus ad purgationem sexto si remedium sit dandum ei qui causa dilationis vocem appellationis exhibuerit septimo si laici monachi vel quilibet inferiorum ordinum in accusatione maiorum sint audiendi octavo quomodo debeat fieri accusatio an in scriptis an sine scripto</field>
+  </object>
+  <object model="ingobert.sample" pk="85">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 3, d.init.</field>
+    <field name="text" type="TextField">quidam a propria sede deiectus est petit restitui post restitutionem ducitur in causam inducias postulat tandem ad eius accusationem procedit quidam non legitime coniunctus et duo infames et tres religiosi accusatores testes de domo sua producunt et alios sibi inimicos extra suam provinciam reus criminoso iudici offertur ab uno tantum audiendus et iudicandus quidam de accusatoribus et testibus absentes per epistolam illum accusare et in eum testificari contendunt cum multa capitula ei obicerentur in primo accusatores deficiunt accusatio in accusatorem vertitur hic primum queritur an restitutio danda sit quibuslibet expoliatis secundo de induciis an post restitutionem tantum an etiam post vocationem ad causam quibuslibet concedende sint tertio quo spatio mensium utrique sint concedende quarto an infames et non legitime coniuncti ad accusationem sint admittendi quinto an testes de domo accusatorum sint producendi vel inimicorum vox sit audienda sexto an extra provinciam reus sit producendus septimo an sit audienda eius sententia quem cum reo par inficit malicia octavo ab uno tantum episcopus sit audiendus vel iudicandus nono an accusatores vel testes in absentem vocem accusationis vel testificationis exhibere valeant decimo an deficientes in primo capitulo sint admittendi ad sequentia undecimo an accusato liceat accusationem in accusatorem vertere</field>
+  </object>
+  <object model="ingobert.sample" pk="86">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 4, d.init.</field>
+    <field name="text" type="TextField">quidam in excommunicatione constitutus episcopum accusare disponit adolescentem infra decimum et quartum etatis sue annum ad assertionem sue cause adducit prohibitus ab accusatione adolescentem accusatorem et se testem facit adolescens personam accusatoris et testis gerere cupit die statuta ad electorum iudicum iudicium episcopus minime occurrit a communione suspenditur tandem renovato iudicio accusator culpabilis in accusatione invenitur demum ad assertionem proprie cause procedit hic primum queritur an in excommunicatione constitutus alium accusare valeat secundo an infra decimum quartum annum in criminali causa testari quis possit tertio utrum ab accusatione prohibitus personam testificantis possit assumere quarto an idem possit esse accusator et testis quinto an die constituta non occurrens a communione ait removendus sexto si in episcoporum indicio accusatoris persona culpabilis inventa fuerit an ad assertionem proprie cause de cetero sit admittenda</field>
+  </object>
+  <object model="ingobert.sample" pk="87">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 5, d.init.</field>
+    <field name="text" type="TextField">in infamiam cuiusdam episcopi cartula accusationis occulte conscribitur tandem accusator procedit in publicum episcopus semel litteris evocatus cause sue die statuta adesse non valens per procuratorem iudici se representavit absque sinodali audientia dampnatur demum iudicio per appellationem renovato de accusatoris inimicitia episcopus conqueritur tandem in probatione deficit accusator primo queritur qua pena sitferiendus qui famosum libellum clanculo scribens probare negligit que litteris mandavit secundo quotiens sit vocandus ad causam ante quam sententiam dampnationis excipiat tertio an per procuratorem causam suam agere valeat qui per se ipsum cause sue adesse non potest quarto an absque sinodali audientia sit dampnandus quinto an ideo aliquis sit habendus inimicus quia crimen alterius indicat sexto qua pena sit plectendus qui quod intulit probare non valet</field>
+  </object>
+  <object model="ingobert.sample" pk="88">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 6, d.init.</field>
+    <field name="text" type="TextField">duo fornicatores et infamia notati quendam religiosum episcopum de symonia accusare nituntur reus alterius provincie archiepiscopi iudicium expetit tandem in probatione deficit accusator reus cogitur ad innocentie sue assertionem primo queritur an crimine irretiti vel infamia notati ad huiusmodi accusationem sint admittendi secundo si episcopus in eos accusationem vertere voluerit an simplici assertioni sue sit fides habenda tertio si liceat sibi expetere iudicium archiepiscopi alterius provincie quarto cuius iudicium sibi sit expetendum si circa suam sententiam episcopos sue provincie discordare contigerit quinto si in probatione deficit accusator an reus sit cogendus ad probationem innocentie sue</field>
+  </object>
+  <object model="ingobert.sample" pk="89">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 7, d.init.</field>
+    <field name="text" type="TextField">quidam longa invaletudinem gravatus episcopus alium sibi substitui rogavit cuius precibus summus pontifex annuit et quod rogaverat ei concessit postea vero convaluit idem episcopus et quod prius fecerat cupit rescindi adversus eum qui sibi accesserat questionem movet suam cathedram tamquam sibi debitam reposcit hic primum queritur utrum vivente episcopo alius possit in ecclesia eadem ordinari secundo an iste valeat reposcere cathedram quam sua intercessione alter accepit</field>
+  </object>
+  <object model="ingobert.sample" pk="90">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 8, d.init.</field>
+    <field name="text" type="TextField">in extremis agens quidam episcopus successorem sibi ex testamento instituit inde suorum amicorum patrocinio in eundem episcopatum eligitur post electionem pro indempnitate ecclesie canonicis iuramentum prebuit accusatur de symonia tamquam munus ab obsequio prestiterit ante tempus sententie a clericis suis derelinquitur sine litteris apostolici ad ecclesiam suam episcopus revertitur hic primo queritur an liceat episcopo successorem sibi instituere secundo an amicorum patrocinia in electione debeant convalescere tertio an habendus sit symoniacus qui post electionem huiuscemodi iuramentum canonicis prestat quarto an liceat clericis ante sententie tempus ab episcopo suo discedere quinto an sine litteris apostolici debeat redire ad propriam ecclesiam</field>
+  </object>
+  <object model="ingobert.sample" pk="91">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 9, d.init.</field>
+    <field name="text" type="TextField">sententia excommunicationis notatus quidam archiepiscopus aliquot clericos alterius metropolitani ordinavit quendam capellanum sui suffraganei illo inconsulto deposuit alium in loco eius ordinavit queritur an ordinatio que ab excommunicatis facta est aliquo modo possit rata haberi secundo an liceat episcopo archiepiscopo primati vel patriarche clericos alterius sine litteris propriis ordinare tertio an archiepiscopus clericos suffraganei sui illo inconsulto dampnare valeat vel dampnatos absolvere</field>
+  </object>
+  <object model="ingobert.sample" pk="92">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 10, d.init.</field>
+    <field name="text" type="TextField">quidam laicus basilicam a se factam a diocesiana lege segregare querit episcopus ecclesiam cum omni dote sua ad suam dispositionem pertinere contendit tandem evincit episcopus per parrochias militibus comitatus crudeliter desevit que ecclesiarum sunt tamquam sibi debita usurpare contendit modo primum queritur an basilica cum omni dote sua ad episcopi ordinationem pertineat secundo an res ecclesiarum episcopis usurpare liceat tertio quid nomine cathedratici a suis sacerdotibus exigere valeat</field>
+  </object>
+  <object model="ingobert.sample" pk="93">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 11, d.init.</field>
+    <field name="text" type="TextField">clericus adversus clericum questionem de prediis agitavit quem ad civilem iudicem producere voluit reus non nisi ante iudicem ecclesiasticum stare volebat actor vero potentia civilis iudicis illum a possessione sua deiecit quo audito episcopus eum ab offitio suspendit ille contempta episcopi sui sententia offitium suum administravit hoc conperto episcopus sine spe restitutionis in eum sententiam dedit hic primum queritur utrum clericus ante civilem iudicem sit producendus secundo si producendus non est an hec culpa sit digna suspensione tertio si digna non fuerit an contemptorem sententie sui episcopi inreparabiliter oporteat deponi</field>
+  </object>
+  <object model="ingobert.sample" pk="94">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 12, d.init.</field>
+    <field name="text" type="TextField">quidam clerici propria relinquere volunt de suis et ecclesie rebus testamenta conficiunt de rebus ecclesie nonnulla largiuntur modo primum queritur utrum clericis liceat proprium habere secundo an res ecclesie que ab eis date sunt possint constare aliqua firmitate eis qui eas acceperunt tertio si ante tempus sue ordinationis qui nichil habere videbantur et post ordinationem aliqua invenisse noscuntur an possint ea quibus voluerint relinquere an non quarto si de suis et ecclesie rebus aliqua acquisisse noscuntur an utrique communiter an singulariter ecclesie vel sacerdoti iure proveniant quinto si testamenta eis liceat conficere</field>
+  </object>
+  <object model="ingobert.sample" pk="95">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 13, d.init.</field>
+    <field name="text" type="TextField">diocesiani cuiusdam baptismalis ecclesie cladibus bellorum pressi hostili metu conpulsi domicilia sua transtulerunt in aliam diocesim predia tamen antiqua non desierunt colere ceperunt persolvere decimas illi ecclesie in cuius diocesim transierunt et apud eam sibi elegerunt sepulturas transactis quinquaginta annis clerici quibus quondam persolverant decimas ceperunt movere questionem in eos qui ab istis accipiunt primicias et decimas veniunt ad causam modo primum queritur si illi quorum domicilia sunt in diocesi huius baptismalis ecclesie an debeant persolvere decimas et celebrare suas exequias apud eam ecclesiam in qua quondam hec fiebant a parentibus eorum secundo an prescriptione temporis ius percipiendi decimas et funerandi tollatur</field>
+  </object>
+  <object model="ingobert.sample" pk="96">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 14, d.init.</field>
+    <field name="text" type="TextField">canonici cuiusdam ecclesie questionem movent de prediis testes ex fratribus suis producunt negociatoribus pecuniam crediderunt ut ex eorum mercibus emolumenta acciperent queritur an liceat eis repetere sua secundo an illi testes sint audiendi tertio an illud sit usuras exigere quarto an liceat clericis vel laicis a quolibet usuras expetere quinto an elemosine de usuris fieri possint sexto an usurarii penitenciam agere valeant nisi quod male acceperunt restituant</field>
+  </object>
+  <object model="ingobert.sample" pk="97">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 15, d.init.</field>
+    <field name="text" type="TextField">clericus quidam crimine carnis lapsus esse perhibetur ante quam sacerdotalem benedictionem consequeretur postquam vero sacerdotium adeptus est in furorem versus quendam interfecit recuperata vero sanitate apud episcopum accusatur ab ea cum qua lapsus esse dicitur episcopus autem die dominico causam examinat sacerdos inficiatur crimen sibi illatum quorundam clericorum sibi patrocinia querit illi vero non sine precio sibi patrocinantur tandem episcopus questionibus confessionem extorquet demum solus et absque sinodali audientia illum sententia ferit queritur autem an ea que mente alienata fiunt sint inputanda secundo an pro inpensis patrociniis liceat clericis munera exigere tertio an ex mulieris confessione iste sit condempnandus quarto an die dominico eius causa sit ventilanda quinto an sibi neganti purgatio sit deferenda sexto an eius confessio cruciatibus sit extorquenda septimo an absque sinodali audientia episcopus valeat sacerdotem dampnare octavo si sponte confessus aut ab aliis convictus fuerit quod ante ordinationem peccaverit an suscepti ordinis offitium sibi exequi liceat</field>
+  </object>
+  <object model="ingobert.sample" pk="98">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 16, d.init.</field>
+    <field name="text" type="TextField">quidam abbas habebat parrochitanam ecclesiam instituit ibi monachum ut officium populo celebraret possedit eam per xl annos sine aliqua interpellatione tandem querela adversus abbatem movetur a clericis baptismalis ecclesie in cuius diocesi parrochitana illa ecclesia consistebat hic primum queritur utrum liceat monachis officia populis celebrare penitentiam dare et baptizare secundo si contigerit eos capellam habere episcopali beneficio an ab eis sint instituende an ab episcopis tertio an iura ecclesie prescriptione tollatur quarto si ecclesia adversus ecclesiam prescribat an etiam monasterium adversus ecclesiam prescribere possit quinto si capellam in suo territorio edificatam iure territorii sibi vendicare valeat sexto si archipresbiter vel episcopus sua auctoritate non iudiciaria sententia capellam illam inrepserit an cadat a causa ut ecclesia cui presidet non ultra habeat ius reposcendi quod suus pastor illicite usurpavit septimo queritur si laici capellam illam tenebant ut quibusdam moris est et in manibus abbatis eam refutaverunt et ordinandam tradiderint an consensu episcopi et clericorum abbas possit eam tenere</field>
+  </object>
+  <object model="ingobert.sample" pk="99">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 17, d.init.</field>
+    <field name="text" type="TextField">quidam presbiter infirmitate gravatus se fieri velle monachum dixit ecclesie et beneficio in manu advocati renuntiavit postquam convaluit mox se futurum monachum negavit ecclesiam et beneficium reposcit hic primum queritur utrum reus voto teneatur an liceat ei a proposito sui cordis discedere secundo an si ecclesia et beneficium ei reddenda sint que proprius libera voluntate refutavit tertio si contigisset eum et se et sua monasterio tradidisse et an licentia abbatis liceret ei ad priora redire quarto si sine licentia abbatis retro abierit an sua sibi ab abbate reddenda sunt</field>
+  </object>
+  <object model="ingobert.sample" pk="100">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 18, d.init.</field>
+    <field name="text" type="TextField">quidam monachus consecratus in episcopum prius monasterio multa contulit postea in episcopatu plurima acquisivit cui dum fratres successorem quererent episcopus loci semet electioni volebat inserere ut per ipsum abbas in monasterio ordinaretur fratres renituntur queritur an monasterium possit petere que ab episcopo sunt acquisita an episcopalis ecclesia possit sibi vendicare que monasterio fuerant contradita secundo an per episcopum abbas sit eligendus et ordinandus et an tantummodo a propriis fratribus sit instituendus</field>
+  </object>
+  <object model="ingobert.sample" pk="101">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 19, d.init.</field>
+    <field name="text" type="TextField">duo clerici ad monasterium transire volunt uterque licentiam ab episcopo suo petiit modo queritur si episcopus debeat permittere ut relicta propria ecclesia clericus monasterium ingrediatur item secundo queritur si epilicentiam dare noluerit an eo invito monasterium possit adire tertio si contigerit ipsos regulares canonicos fuisse utrum concedendus esset eis monasterii ingressus</field>
+  </object>
+  <object model="ingobert.sample" pk="102">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 20, d.init.</field>
+    <field name="text" type="TextField">duo pueritie annos agentes a parentibus monasterio traditi sunt unus invitus alter spontaneus cucullam induitur ad annos pubertatis venientes invitus ad secularem militiam redit spontaneus monasterium districtius petit nunc primum queritur si in pueritie annis traditi cogantur religionis propositum tenere secundo si preter voluntatem parentum tonsuram vel religionis vestem quis in pueritia accipiat an possit sibi detrahi an non tertio qui preter voluntatem propriam cucullam induitur an cogatur eam retinere an non quarto si ab uno monasterio in aliud districtius liceat transire alicui</field>
+  </object>
+  <object model="ingobert.sample" pk="103">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 21, d.init.</field>
+    <field name="text" type="TextField">archipresbiter cuiusdam ecclesie preposituram alterius accepit nec priorem vult relinquere secularium quoque negociorum procurator efficitur claris et fulgidis vestibus se exornans ab episcopo suo corrigitur relicto suo offitio ad secularem iudicem habet confugium queritur an clericus in duabus ecclesiis possit conscribi secundo si unam voluerit relinquere an liceat ei ad aliam transire tertio an procurationes secularium negociorum clericis liceat suscipere quarto an claris et fulgidis vestibus eis ornari expediat quinto an ab episcopo correpti suum offitium relinquere et ad secularem iudicem confugere valeant</field>
+  </object>
+  <object model="ingobert.sample" pk="104">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 22, d.init.</field>
+    <field name="text" type="TextField">quidam episcopus iuravit falsum quod putabat verum quo conperto archidiaconus eius iuravit se numquam prestaturum ei obedientiam conpellitur archidiaconus ab episcopo ad exhibendum sibi consuetam reverentiam accusatur episcopus de dupplici periurio et de eo quod falsum iuravit et quia archidiaconum ad peierandum conpellit primum queritur an iuramentum sit prestandum vel non secundo si sit periurus qui iurat falsum quod putat verum tertio si licuit archidiacono denegare episcopo consuetam obedientiam quarto si constiterit esse illicitum quod iuravit archidiaconus an sit servandum quinto si constiterit illud servandum esse an episcopus sit reus periurii qui contra iuramentum archidiaconum suum ire conpellit</field>
+  </object>
+  <object model="ingobert.sample" pk="105">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 23, d.init.</field>
+    <field name="text" type="TextField">quidam episcopi cum plebe sibi conmissa in heresim lapsi sunt circumadiacentes catholicos minis et cruciatibus ad heresim conpellere ceperunt quo conperto apostolicus catholicis episcopis circumadiacentium regionum qui ab inperatore civilem iurisdictionem acceperant inperavit ut catholicos ab hereticis defenderent et quibus modis possent eos ad fidei veritatem redire conpellerent episcopi hec mandata apostolica accipientes convocatis militibus aperte et per insidias contra hereticos pugnare ceperunt tandem nonnullis eorum neci traditis aliis rebus suis vel ecclesiasticis expoliatis aliis carcere et ergastulo reclusis ad unitatem catholice fidei coacti redierunt hic primum queritur an militare peccatum sit secundo quod bellum sit iustum et quomodo a filiis israel iusta bella gerebantur tertio an iniuria sociorum armis sit propulsanda quarto an vindicta sit inferenda quinto an sit peccatum iudici vel ministro reos occidere sexto an mali sint cogendi ad bonum septimo an heretici suis et ecclesie rebus sint expoliandi et qui possidet ab hereticis ablata an dicatur possidere aliena octavo an episcopis vel quibuslibet clericis sua liceat auctoritate vel apostolici vel inperatoris precepto arma movere</field>
+  </object>
+  <object model="ingobert.sample" pk="106">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 24, d.init.</field>
+    <field name="text" type="TextField">quidam episcopus in heresim lapsus aliquot de sacerdotibus suis officio privavit et sententia excommunicationis notavit post mortem de heresi accusatus dampnatur et sequaces eius cum omni familia sua hic primum queritur an lapsus in heresim possit aliquot officio privare vel sententia notare secundo an post mortem aliquis possit excommunicari tertio an pro peccato alicuius tota familia sit excommunicanda</field>
+  </object>
+  <object model="ingobert.sample" pk="107">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 25, d.init.</field>
+    <field name="text" type="TextField">sancta romana ecclesia quandam baptismalem ecclesiam suis munivit privilegiis decimationes sue diocesis ex integro sibi attribuens item quoddam monasterium similiter munivit privilegiis propriis decernens ut ex propriis prediis nulli decimas persolveret accidit itaque ut intra diocesim premunite baptismalis ecclesie prefatum monasterium alia emptione alia donatione predia sibi inveniret oritur itaque contentio inter monachos et clericos de decimis nunc primum queritur an clerici baptismalis ecclesie auctoritate privilegii decimas sue diocesis ex integro sibi valeant vendicare secundo an subsequenti privilegio monachorum derogetur antiquioribus privilegiis baptismalium ecclesiarum</field>
+  </object>
+  <object model="ingobert.sample" pk="108">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 26, d.init.</field>
+    <field name="text" type="TextField">quidam sacerdos sortilegus esse et divinus convincitur apud episcopum correctus ab episcopo noluit cessare excommunicatur tandem agens in extremis reconciliatur a quodam sacerdote episcopo inconsulto indicitur penitencia sibi sub quantitate temporis canonibus prefixa primum queritur qui sint sortilegi secundo an sit peccatum esse sortilegum tertio a quibus genus divinationis sumpsit exordium quarto quot sint genera divinationis quinto an sortilegi vel divini sint excommunicandi si cessare noluerint sexto an excommunicatus ab episcopo possit reconciliari a presbitero illo inconsulto septimo si morientibus est indicenda penitencia sub quantitate temporis</field>
+  </object>
+  <object model="ingobert.sample" pk="109">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 27, d.init.</field>
+    <field name="text" type="TextField">quidam votum castitatis habens desponsavit sibi uxorem illa priori condicioni renuncians transtulit se ad alium et nupsit illi ille cui prius desponsata fuerat repetit eam hic primum queritur an coniugium possit esse inter voventes secundo an liceat sponse a sponso recedere et alii nubere</field>
+  </object>
+  <object model="ingobert.sample" pk="110">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 28, d.init.</field>
+    <field name="text" type="TextField">quidam infidelis in coniugio positus ad fidem conversus est uxor vero odio christiane fidei ab eo discessit ille quamdam fidelem in uxorem accepit qua mortua clericus efficitur tandem vite et scientie merito in episcopum eligitur hic primum queritur an coniugium sit inter infideles secundo an liceat huic aliam ducere priore vivente tercio an sit reputandus bigamus qui ante baptismum habuit unam et post baptismum alteram</field>
+  </object>
+  <object model="ingobert.sample" pk="111">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 29, d.init.</field>
+    <field name="text" type="TextField">cuidam nobili mulieri nunciatum est quod a filio cuiusdam nobilis petebatur in coniugem prebuit illa assensum alius vero quidam ignobilis atque servilis condicionis nomine illius se ipsum obtulit atque eam in coniugem accepit ille qui sibi prius placuerat tandem venit eam que sibi in coniugem petit illa se delusam conqueritur et ad prioris copulam aspirat hic primum queritur an sit coniugium inter eos secundo si prius putabat hunc esse liberum et postea deprehendit illum esse servum an liceat ei statim ab illo discedere</field>
+  </object>
+  <object model="ingobert.sample" pk="112">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 30, d.init.</field>
+    <field name="text" type="TextField">populorum frequentia quidam inpeditus filium suum de baptismate suscepit dum crederet se alienum suscipere uxor eius dum callide vellet suscipere proprium suscepit alienum quem vir adoptavit sibi in filium et ex uxore sibi filia nascitur quam filio suo adoptivo spirituali uxoris dum uterque esset in cunabulis tradidit post triennium uxor moritur et conpater eius relictam conpatris uxoris sue vir clam sibi desponsavit aliquantulum temporis effluxit et alius publice duxit eam in uxorem queritur an uxori sue debitum reddere valeat qui proprium filium de sacro baptismate suscepit secundo an sponsalia contrahantur inter infantes tertio an spirituales vel adoptivi filii naturalibus copulari valeant quarto an uxorem conpatris uxoris sue alicui ducere liceat quinto an clandestina desponsatio manifeste preiudicet</field>
+  </object>
+  <object model="ingobert.sample" pk="113">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 31, d.init.</field>
+    <field name="text" type="TextField">uxorem cuiusdam alius constupravit eo mortuo adulter adulteram sibi in uxorem accepit filiam ex ea susceptam cuidam in coniugem se daturum iuravit illa assensum non prebuit deinde pater alii eam tradidit a primo reposcitur queritur an possit duci in coniugium que prius est polluta per adulterium secundo an filia sit tradenda invita alicui tertio an post patris sponsionem illa possit nubere alii</field>
+  </object>
+  <object model="ingobert.sample" pk="114">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 32, d.init.</field>
+    <field name="text" type="TextField">quidam cum non haberet uxorem quandam meretricem sibi coniugio copulavit que erat sterilis neptis ingenui filia originarii quam cum pater vellet alii tradere avus huic eam copulavit causa solius incontinentie deinde hic penitencia ductus ex ancilla propria filios sibi querere cepit postea de adulterio convictus et punitus quendam rogavit ut vi uxorem suam opprimeret ut sic eam dimittere posset quo facto quandam infidelem sibi copulavit ea tamen condicione ut ad christianam religionem transiret hic primum queritur an licite meretrix ducatur in uxorem secundo an ea que causa incontinencie ducitur sit coniux appellanda tercio cuius arbitrium aliqua sequatur an liberi avi an originarii patris quarto si vivente uxore liceat alicui ex ancilla filios querere quinto si ea que vim patitur pudicitiam amittere conprobetur sexto si adulter adulteram possit dimittere septimo si vivente dimissa aliam possit accipere octavo si infidelem sub premissa condicione licet alicui fidelium in coniugem ducere</field>
+  </object>
+  <object model="ingobert.sample" pk="115">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 33, d.init.</field>
+    <field name="text" type="TextField">quidam vir maleficiis inpeditus uxori sue debitum reddere non poterat alius interim clanculo eam corrupit a viro suo separata corruptori suo publice nubit crimen quod admiserat corde tantum deo confitetur redditur huic facultas cognoscendi eam repetit uxorem suam qua recepta ut expedicius vacaret orationi et ad carnes agni purus accederet continentiam se servaturum promisit uxor vero consensum non adhibuit queritur an propter inpossibilitatem coeundi a viro suo aliqua sit separanda secundo an post separationem ei nubere valeat cum quo prius fornicata est tertio si sola confessione cordis crimen possit deleri quarto si tempore orationis quis valeat reddere coniugii debitum quinto an vir sine consensu uxoris continenciam vovere possit vel si minis vel terroribus licentiam vovendi ab ea extorquere valeat</field>
+  </object>
+  <object model="ingobert.sample" pk="116">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 34, d.init.</field>
+    <field name="text" type="TextField">quidam vir in captivitatem ductus est postea uxor eius audiens illum mortuum nupsit alii demum ille de captivitate rediens repetit uxorem suam illa posterioris amore capta aspernatur thorum prioris nunc primum queritur an sit rea adulterii que vivente viro suo alteri nupsit secundo an redeunte primo sit cogenda recedere a secundo et redire ad primum</field>
+  </object>
+  <object model="ingobert.sample" pk="117">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 35, d.init.</field>
+    <field name="text" type="TextField">quidam mortua uxore sua aliam sibi matrimonio copulavit que uxori defuncte quarto gradu consanguinitatis viro autem sexta linea adherebat post triennium vero susceptis ex ea liberis accusatur apud ecclesiam iste pretendit ignorantiam hic primum queritur si liceat aliquam ex propria cognatione duci in uxorem secundo si ex consanguinitate uxoris aliqua possit in coniugem duci tertio usque ad quem gradum quisque debeat abstinere sive a propriis sive ab uxoris sue consanguineis quarto quare usque ad septimum gradum consanguinitas conputatur ita quod nec ultra protenditur nec infra subsistit quinto quomodo gradus consanguinitatis conputandi sunt sexto qui iureiurando propinquitatem firmare debeant septimo an illi qui de incestuosis nati sunt filii reputentur octavo si ignoranter aliqua de consanguinitate vel affinitate in uxorem ducta est an ex dispensatione viro suo possit adherere nono si contigerit ecclesiam decipi et causa consanguinitatis aliquam a viro suo separare que post quadriennium nuptiis hinc inde celebratis deprehenditur non fuisse consanguinea prioris an secunda coniugia sint rescindenda et priora sint redintegranda decimo si relicta alicuius de propria cognatione ad secundas nuptias transierit an proles ex eis suscepta possit pertingere ad consortium alicuius de cognatione prioris viri</field>
+  </object>
+  <object model="ingobert.sample" pk="118">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">1r.</field>
+    <field name="label" type="CharField">C. 36, d.init.</field>
+    <field name="text" type="TextField">filiam cuiusdam patre ignorante quidam muneribus illexit ad convivium invitavit finito convivio iuvenis virginem oppressit quo conperto a parentibus iuveni traditur puella ac more nubentium a iuvene dotatur et publice in uxorem ducitur queritur an ille raptum admiserit secundo an rapta raptori nubere possit patre assensum prestante</field>
+  </object>
+  <object model="ingobert.sample" pk="119">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. Prima, d.init.</field>
     <field name="text" type="TextField">laicus quidam litteratus concubinam habebat tandem ea dimissa ad subdiaconum convolatum deinde uxorem sibi asciuit post pauca ad diaconum ascendum sicque in episcopum electus est queritur igitur an nubentes post votum sint separandi secundo an si concubinam habuerit in episcopum sit ordinandus tertio utrum in sacro ordine tantum constitutus eligendus sit in episcopum</field>
   </object>
-  <object model="ingobert.sample" pk="45">
+  <object model="ingobert.sample" pk="120">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 1, d.init.</field>
     <field name="text" type="TextField">obtulit quidam filium suum cenobio qui exactione abbatis motus decem libras monasterio solum ipso tamen filio propter etatem hoc ignorante crevit puer dehinc ad sacerdotium convolavit suffragantibus meritis in episcopum est assumptus tandem obsequio ac precibus paternis intercedentibus pecunia quoque ex consiliariis archiepiscopi cuidam data consecrator electus oblatae pecuniae ac paterni obsequii penitus ignarus ac per hoc tempore procedente quosdam gratis nonnullos etiam per pecuniam ordinavit qui tandem accusatus et convictus contrariam sententiam reportavit primum ergo queritur an peccatum sit spiritualia emere secundo an pro ingressu ecclesiae pecunia sit exigenda vel si exacta fuerit an sit persolvenda tercio an ingressum chori emere vel prebendas ecclesiae sit symoniacum quarto an iste sit reus criminis quod eo ignorante pater admisit quinto an liceat ei esse in ecclesia vel fungi ea ordinatione quam pater pecunia est assecutus sexto an illi qui ab eo iam symoniaco ignoranter sunt ordinati abici debeant septimo si suae heresi renuntians in episcopali dignitate sit recipiendus</field>
   </object>
-  <object model="ingobert.sample" pk="46">
+  <object model="ingobert.sample" pk="121">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 2, d.init.</field>
     <field name="text" type="TextField">quidam igitur episcopus a laico quodam de lapsu carnis inpetitur duo monachi unus subdiaconus et diaconi duo ipsum adversus testimonium facuint qui quidem se a metropolitano suo sentiens pregravari a sententia provocavit in ipsa causae ventilatione tres ex testibus deficiunt sive promissione decepti sive canonica examinatione reprobate episcopus tamen quem eius crimen notorium erat expoliatur primum igitur queritur an in manifestis iudiciarius ordo sit requirendus secundo an expoliatus ab aliquo sit iudicandus tercio qua pena sint feriendi qui in accusatione vel testificatione defecerint quarto si duorum testimonio sit condempnandus quinto si deficientibus accusatoribus sit cogendus ad purgationem sexto si remedium sit dandum ei qui causa dilationis vocem appellationis exhibuerit septimo si laici monachi vel quilibet inferiorum ordinum in accusatione maiorum sint audiendi octavo quomodo debeat fieri accusatio an in scriptis an sine scripto</field>
   </object>
-  <object model="ingobert.sample" pk="47">
+  <object model="ingobert.sample" pk="122">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 3, d.init.</field>
     <field name="text" type="TextField">quidam episcopus deiectus est a sede sua unde restitui petit postquam restitutus est in causam ducitur petit indutias procedit tandem ad eius accusationem quidam non legitime coniunctus et cum eo simul duo infames et tres alii religiosi testes de domo sua procedunt et alios producunt sibi inimicos extra suam provinciam reus criminoso iudici offertur ab uno tantum audiendus et iudicandus quidam de accusationibus et testibus absentes per epystolam illum accusare et in eum testificari contendunt cum multa capitula ei obicerentur deficiunt in primis accusationes accusatio vertitur in accusatorem queritur igitur primum an quilibet expoliati sint restituendi secundo vidende est de indutiis an post restitutionem tantum an post vocationem ad causam quibuslibet concedende sint tercio quo spacio mensium utique sint concedende quarto an infames et non legitime coniuncti ad accusationem sint admittendi quinto an testes de domo accusatorum sint producendi vel inimicorum vox sint audienda sexto an extra provinciam reus sit producendus septimo an eius sit audienda sententia quem cum reo par efficit malicia octavo an ab uno tantum sit audiendus episcopus vel iudicandus nono an accusatores vel testes in absentem vocem accusationis vel testificationis exhibere possint decimo an deficientes in primo capitulo sint admittendi ad sequentia undecimo an accusato liceat accusationem in accusatorem retorquere</field>
   </object>
-  <object model="ingobert.sample" pk="48">
+  <object model="ingobert.sample" pk="123">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 4, d.init.</field>
     <field name="text" type="TextField">in excommunicatione quidam erat constitutus et episcopum accusare disponit adolescentem infra annos xiiii secum ad asserendam causam adducit qui dum ab accusationem prohibeatur facit se testem et minorem accusatore minor vero accusatoris et testis personam gerere desiderat statuta die episcopus ad iudicium non venit suspenditur a communione renovato denuo iudicio accusator in accusatione culpabilis invenitur demum ad assertionem propriae causae procedit queritur ergo primo an constitutus in excommunicatione possit alium accusare secundo an infra xiiii annos in criminali causa quis testificari valeat tercio an ab accusatione quis prohibitus testificantis vicem possit assumere quarto accusator et testis an possit idem esse quinto an quis non veniens die praestituta excommunicari debeat id est a communicatione privari sexto si culpabilis quis in episcopali indicio inveniatur ad assertionem propriae causae sit amplius admittendus</field>
   </object>
-  <object model="ingobert.sample" pk="49">
+  <object model="ingobert.sample" pk="124">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 5, d.init.</field>
     <field name="text" type="TextField">ad episcopum quondam infamandum accusationis libellus occulte scribitur accusator tandem in plubicum procedit episcopus litteris semel vocatus statuto tempore suae causae non valens adesse iudici per procuratorem sepresentavit qui quidem absque audentia synodali dampnatur iudicio demum per appellationem renovato accusatorem inimicum esse conqueritur accusator tandem in accusatione deficit unde primo dubitatur qua pena sit afficiendus qui famosum libellum clanculo scribens que litteris mandavit probare negligit secundo quotiens ad causam sit vocandus antequam dampnationis sententiam excipiat tercio an qui causae adesse nequit per procuratorem suam causam agere possit quarto utrum possit dampnari absque audientia synodali quinto an quis obhoc inimicus sit habendus quia alterius crimen indicare praesumit sexto qualiter puniri debeat qui quod obiecit probare nequit</field>
   </object>
-  <object model="ingobert.sample" pk="50">
+  <object model="ingobert.sample" pk="125">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 6, d.init.</field>
     <field name="text" type="TextField">fornicatores quidam et notati infamia episcopum quendam de symonia nituntur inpetere expetit reus iudicium alterius archiepiscopi provinciae accusatores tandem in probatione deficiunt ad suae innocentiae assertionem cogi reus queritur ergo utrum crimine irretiti seu infamia notati ad huiusmodi accusationem sint admittendi secundo an episcopus si in eos accusationem retorquere voluit an simplici assertioni suae cedendum sit tercio si liceat sibi expetere iudicium archiepiscopi alterius provinciae quarto cuius sibi iudicium sit expetendum si circa suam sententiam conprovinciales episcopi discordes extiterint quinto si in probatione deficit accusator an cogendus sit reus ad probatione suae innocentiae</field>
   </object>
-  <object model="ingobert.sample" pk="51">
+  <object model="ingobert.sample" pk="126">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 7, d.init.</field>
     <field name="text" type="TextField">episcopus quidam infirmitate longa detentus rogavit alium sibi substitui precibus cuius pontifex romanus annuit et quod rogavit ei concessit postea convaluit episcopus idem et quod prius fecerat rescindi cupit movet questionem contra qui succasserat reposcit cathedram suam tamquam sibi debitam queritur ergo an episcopo vivente alius in eadem possit ecclesia ordinari secundo an cathedram iste reposcere valeat quam aliter intercessione propria intercepit</field>
   </object>
-  <object model="ingobert.sample" pk="52">
+  <object model="ingobert.sample" pk="127">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 8, d.init.</field>
     <field name="text" type="TextField">quidam episcopus in extremis positus ex testamento successorem sibi subrogavit qui quidem in episcopatu amicorum auxilio eligit demum pro ecclesiae indempnitate iuramentum canonicis praestitit unde quasi symoniacus accusatur ut qui ab obsequio munus praestitisse iudicetur derelinquitur autem ante quam exinde sententia feratur a clericis suis qui ad ecclesiam suam sine litteris apostolici revertitur unde questio primum proponitur an episcopo liceat successorem sibi subrogare secundo si amicorum auxilia debeant in electione convalescere tercio an symoniacus sit habendus qui post electionem huiuscemodi iuramentum canonicis exhibet quarto utrum clericis liceat ante sententiam ab episcopo suo discedere quinto an absque pontificis romani litteris ad propriam ecclesiam redire debeat</field>
   </object>
-  <object model="ingobert.sample" pk="53">
+  <object model="ingobert.sample" pk="128">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 9, d.init.</field>
     <field name="text" type="TextField">notatus quidam archiepiscopus excommunicationis sententia ordinavit clericos aliquot alterius metropolitani deposuit etiam quendam capellanum sui suffraganei illo inconsulto atque alium in loco eius ordinavit unde queri potuit utrum illa ordinatio valeat que ab excommunicatis fiat vel aliquo modo possit rata haberi secundo an liceat episcopo archiepiscopo primati vel patriarchae clericos alterius sine suis litteris ordinare tercio an archiepiscopus clericos suffraganei sui illo inconsulto dampnare valeat vel dampnatos absolvere</field>
   </object>
-  <object model="ingobert.sample" pk="54">
+  <object model="ingobert.sample" pk="129">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 10, d.init.</field>
     <field name="text" type="TextField">laicus quidam ecclesiam quamdam a se factam a lege diocesiana seperare contendit episcopus vero eam cum omni sua dote ad dispositionem suam asserit pertinere tandem episcopus evincit et militis militibus commitatus per parochiam deseuit unde que sunt ecclesiarum quasi sibi debita usurpare querit primum ergo queritur an basilica cum tota sua dote ad episcopi pertineat ordinationem secundo an res ecclesiarum episcopis liceat usurpare tercio quid nomine cathedrae a sacerdotibus exigere valeat</field>
   </object>
-  <object model="ingobert.sample" pk="55">
+  <object model="ingobert.sample" pk="130">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 11, d.init.</field>
     <field name="text" type="TextField">adversus clericum clericus de prediis questionem agitavit quem ad civilem iudicem producere voluit reus non nisi ante ecclesiasticum iudicem stare voluit actor vero iudicis civilis potentia illum a possessione sua deiecit ille contempta episcopi sui sententia offitium suum administravit hoc conperto episcopus sine spe restitucionis in eum sententiam dedit queritur ergo primum an clericus ante civilem iudicem producendus sit secundo si producendus non est an hec culpa digna sit suspensione tercio si digna non fuerit an contemptorem sententiae sui episcopi inreparabiliter oporteat deponi</field>
   </object>
-  <object model="ingobert.sample" pk="56">
+  <object model="ingobert.sample" pk="131">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 12, d.init.</field>
     <field name="text" type="TextField">non nulli clericorum propria relinquere nolentes de suis et ecclesiae rebus testamenta conficiunt de rebus ecclesiae multa largiuntur queritur igitur primum an clericis liceat proprium habere secundo an res ecclesiae que ab eis datae sunt aliqua firmitate apud eos qui eas acceperunt constare possint tercio si ante tempus suae ordinationis nichil habere videbantur et post ordinationem aliqua invenisse noscuntur an quibus velint ea relinquere possint quarto si de suis et ecclesiae rebus aliqua acquisisse noscuntur an utrique communiter an singulariter ecclesiae vel sacerdoti iure proveniant quinto si testamenta eis conficere liceat</field>
   </object>
-  <object model="ingobert.sample" pk="57">
+  <object model="ingobert.sample" pk="132">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 13, d.init.</field>
     <field name="text" type="TextField">quidam ecclesiae baptismalis diocesiani multis bellorum cladibus pressi hostili metu conpulsi in aliam diocesim sua transtulerunt domicilia predia tamen colere non desierunt et decimas ceperunt solvere illi ecclesiae in cuius diocesim transierunt et sepulturas apud eam sibi elegerunt demum annis transactis quinquaginta clerici quibus quondam decimas persolverant in eos questionem movere ceperunt qui ab istis primicias et decimas accipiunt ad causam igitur contra eos veniunt primum ergo queritur si aliqorum domicilia in diocesibus baptismalis ecclesiae sunt translata an persolvere decimas debeant et suas celebrare exequias apud ecclesiam in qua hec quondam a parentibus eorum fiebant secundo an temporis prescriptione ius percipiendi decimas et funerandi tollatur</field>
   </object>
-  <object model="ingobert.sample" pk="58">
+  <object model="ingobert.sample" pk="133">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 14, d.init.</field>
     <field name="text" type="TextField">movent adversus quosdam cuiusdam ecclesisae canonici de prediis questionem ex propriis fratribus quosdam ad testificandum producunt crediderunt pecuniam negociatoribus ut ex mercibus eorum sentirent emolumenta unde primum queritur an eis sua repetere liceat secundo an tales sint testes admittendi tercio utrum illud sit usuras exigere quarto an liceat clericis vel laicis usuras expetere quinto an de usuris elymosina fieri possint sexto an penitenciam facere usurarii possint nisi quod male acceperunt restituant</field>
   </object>
-  <object model="ingobert.sample" pk="59">
+  <object model="ingobert.sample" pk="134">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 15, d.init.</field>
     <field name="text" type="TextField">in crimine carnis lapsus quidam clericus esse dicitur antequam sacerdos esset postquam vero sacerdotium est consecutus in furorem conversus quendam hominem occidit qui sanitate restituta apud episcopum accusatur ab ea cum cum qua dicitur esse lapsus episcopus vero causam die dominico examinat sacerdos crimen negat patrocinium quorundam clericorum sibi postulat qui non sine precio illi patrocinantur episcopus tandem questionibus confessionem extorquet qui solus et sine audientia synodali presbyterum sententia ferit unde primo queritur an ea que mente alienata fecint debeant inputari secundo utrum pro patrociniis inpensis clerici possint munera exigere tercio an ex mulieris confessione iste sit condempnandus quarto an die dominico ventilanda sit eius causa quinto an neganti purgatio sit deferenda sexto an eius confessio sit cruciatibus extorquenda septimo utrum citra audientiam synodalem valeat episcopus presbyterum dampnare octavo si sponte confessus aut ab alias convictus fuerit quod ante ordinationem peccaverit an suscepti ordinis offitium exequi sibi liceat</field>
   </object>
-  <object model="ingobert.sample" pk="60">
+  <object model="ingobert.sample" pk="135">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 16, d.init.</field>
     <field name="text" type="TextField">abbas quidam parrochitanam habebat ecclesiam in qua quidem suum quendam monachum instituit ut offitium populo celebraret et eam sine interpellatione annis quadraginta possedit a clericis baptismalis ecclesiae adversus abbatem tandem querela movetur in cuius diocesi illa parrochitana consistebat ecclesia primum ergo queritur an monachis liceat offitia populis celebrare penitentiam dare baptizare secundo si contigerit eos episcopali beneficio capellam habere an ab eis sint instituendae an ab episcopis tercio utrum ecclesiarum iura ulla prescriptione tollantur quarto an adversus ecclesiam ecclesia prescriptione acquirat an monasterium adversus aliam ecclesiam quinto si capellam in suo territorio edificatam iure territorii episcopus vendicare valeat sexto si archipresbiter vel episcopus sua auctoritate non iudiciaria sententia capellam illam irrepserit an cadat a causa ut ecclesia cui presidet ulterius reposcendi ius non habeat quod sibi ius illicite usurpavit septimo si laici capellam illam tenebant ut quibusdam moris est et in manibus abbatis eam refutaverint et ordinandam tradiderint an consensu episcopi et clericorum abbas possit eam tenere</field>
   </object>
-  <object model="ingobert.sample" pk="61">
+  <object model="ingobert.sample" pk="136">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 17, d.init.</field>
     <field name="text" type="TextField">gravatus infirmitate presbiter quidam monachum se fieri destinavit sicque ecclesiae et benefitio renunciavit cum vero convaluit se velle fieri monachum negavit unde ecclesiam cum benefitio reposcit queritur ergo an reus voto teneatur scilicet an a cordis proposito liceat discedere secundo an ecclesia cum benefitio ei sit reddenda quam libera voluntate repudiavit tertio si se et sua monasterio tradidisset an abbatis licentia ad propria reverti posset quarto si abbate dante licentia redierit an ab abbate sua cum effectu petere possit</field>
   </object>
-  <object model="ingobert.sample" pk="62">
+  <object model="ingobert.sample" pk="137">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 18, d.init.</field>
     <field name="text" type="TextField">monachus quidam in episcopum consecratus monasterio prius multa contulit de in plura in episcopatu acquisiuit cui dum fratres quererent successorem illius loci episcopus electioni se volebat inserere ut abbatis election per eum fieret fratres autem fratres renituntur unde queritur an monasterium petere possit que ab episcopo acquisita sunt an episcopalis ecclesia possit sibi vendicare que monasterio fuerant contradita secundo an per episcopum abbas sit eligendus et ordinandus an tantum a propriis fratribus sit instituendus</field>
   </object>
-  <object model="ingobert.sample" pk="63">
+  <object model="ingobert.sample" pk="138">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 19, d.init.</field>
     <field name="text" type="TextField">volunt duo clerici ad monasterium transire petiit uterque ab episcopo suo licentiam unde queritur an debeat episcopus permittere ut propria ecclesia relicta clericus monasterium fiat secundo si episcopus dare licentiam noluerit an eo invito monasterium adire possit tertio si contigerit ipsos regulares canonicos fuisse utrum monasterii ingressus eis esset concedendus</field>
   </object>
-  <object model="ingobert.sample" pk="64">
+  <object model="ingobert.sample" pk="139">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 20, d.init.</field>
     <field name="text" type="TextField">annos pueritiae duo pariter agentes monasterio traditi sunt unus invitus alter spontaneus cucullam induit qui ad pubertatem venientes invitus ad secularem redit spontaneus districtius monasterium incolit queritur igitur an in pueritiae traditi monasterium insistere sint cogendi secundo si citra parentum voluntatem tonsuram an vestem religionis  quis in pueritia accipiat utrum sibi detrahi possit tercio qui preter propriam voluntatem cucullam induerit an eam retinere cogatur quarto si ab uno monasterio ad aliud districtius transire liceat</field>
   </object>
-  <object model="ingobert.sample" pk="65">
+  <object model="ingobert.sample" pk="140">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 21, d.init.</field>
     <field name="text" type="TextField">cuiusdam ecclesiae archipresbiter alterius ecclesiae accepit preposituram priorem tamen relinquere nolens efficitur quoque procurator secularium negociorum claris vestibus se exornans corrigi ab episcopo relicto proprio offitio ad secularem iudicem confugit unde primo queritur an duabus possit ecclesiis asscribi secundo utrum unam volens relinquere an alteram transire valeat tercio an negociorum secularium administrationem clericis suscipere liceat quarto an claris et fulgidis vestibus ornari expediat quinto an correcti ab episcopo suum offitium relinquere ad secularem iudicem transire possint</field>
   </object>
-  <object model="ingobert.sample" pk="66">
+  <object model="ingobert.sample" pk="141">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 22, d.init.</field>
     <field name="text" type="TextField">episcopus quidam falsum iuravit quod verum esse putabat quo cogito iuravit archidiaconus eius quod amplius ei non obediret archidiaconus ab episcopo conpellitur ut de more sibi obediat unde episcopus de duplici periurio accusatur scilicet de eo quod falsum iuravit et quod archidiaconum ad peierandum  conpellit queritur ergo an iuramentum sit praestandum necnon secundo an periurus sit iurans falsum quod verum putet tercio an licuerit archidiacono consuetam obedientiam denegare quarto si constiterit esse illicitum quod archidiaconus iuravit an servari debeat quinto si constiterit illud servandum esse an episcopus sit reus periurii qui contra iuramentum archidiaconum suum ire conpellit</field>
   </object>
-  <object model="ingobert.sample" pk="67">
+  <object model="ingobert.sample" pk="142">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 23, d.init.</field>
     <field name="text" type="TextField">cum plebe sibi commissa episcopi quidam in heresim sunt lapsi catholicos adiacentes ad heresim conpellebant unde apostolicus episcopis catholicis civilem iurisdictionem ab inperatore habentibus inperavit ut ab hereticis catholicos defenderent et ut cumque possent eos ad fidei rectitudinem reventi cogerent accipientes episcopi apostolici mandata militibus convocatis hereticos manifeste ac insidiis impugnare ceperunt demum multis eorum occisis multis quos suis rebus expoliatis aliis in carceribus et latrimiis reclusis ad fidem tandem redieruntur queritur igitur an sit militare peccatum secundo quod bellum sit iustum tercio an sotios ab iniuria defendere liceat quarto an sit inferenda vindicta quinto an peccet iudex vel minister occidendo reos sexto an ad bonum mali cogi debeant septimo an suis bonis et ecclesiis heretici debeant expoliari et an aliena possidere dicantur qui eius ablata possident octavo utrum episcopis vel quibuslibet clericis sua auctoritate aut vel apostolici sive inperatoris precepto arma movere liceat</field>
   </object>
-  <object model="ingobert.sample" pk="68">
+  <object model="ingobert.sample" pk="143">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 27, d.init.</field>
     <field name="text" type="TextField">quidam votum castitatis habens uxorem sibi desponsavit illa talis conditioni renuntians ad alium convolavit prior eam repetit unde prius queritur an inter voventes possit esse matrimonium secundo an sponsa possit a sponso recedere et alii copulari</field>
   </object>
-  <object model="ingobert.sample" pk="69">
+  <object model="ingobert.sample" pk="144">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 29, d.init.</field>
     <field name="text" type="TextField">nobili cuidam mulieri insinuatum quod a quodam nobili in coniugem peteretur assensit et illa quidam vero ignobilis et servilis conditionis illius nomine se optulit et eam in coniugem accepit qui primus petierat modo venit eamque in coniugem petit conqueritur illa se delusam et ad illum aspirat unde queritur an inter eos sit coniugium secundo si cum putaret hunc esse liberum quem mox deprehensum habet servum esse an statim ab illo discedere possit</field>
   </object>
-  <object model="ingobert.sample" pk="70">
+  <object model="ingobert.sample" pk="145">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 30, d.init.</field>
     <field name="text" type="TextField">impeditus quidam populi frequentia dum opinaretur alium suum filium de baptismos suscepit uxor vero eius dum ecclesia callide vellet proprium suscipere alienum suscepit quem vir adoptavit in filium ex uxore filia sibi nascitur quam filio adoptivo spirituali uxoris dum uterque ad huc in cunabulis esset tradidit post triennium uxor  moritur et conpater eius relictam conpatris uxoris suae vir clam sibi desponsavit post aliqui tempus alter publice in uxorem eam duxit queritur an uxori suae debitum reddere debeat qui de sacro forte filium proprium suscepit secundo an inter infantes sponsalia contrahantur tercio an spirituales vel adoptivi filii naturalibus possint coniugi quarto an uxorem conpatris uxoris suae alicui ducere liceat quinto an clandestina desponsatio manifeste preiudicet</field>
   </object>
-  <object model="ingobert.sample" pk="71">
+  <object model="ingobert.sample" pk="146">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 31, d.init.</field>
     <field name="text" type="TextField">quidam alterius uxorem corrupit quo mortuo alius adulteram in uxorem sibi accepit filiam ex ea susceptam cuidam se daturum in coniugem iuravit que quidem noluit consentire unde pater eam alii tradidit nunc a primo reposcitur unde modo queritur utrum in coniugem duci possit per adulterium primitus copulata secundo an filia alicui invita tradi possit tercio an post patris sponsionem alii nubere possit</field>
   </object>
-  <object model="ingobert.sample" pk="72">
+  <object model="ingobert.sample" pk="147">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 32, d.init.</field>
     <field name="text" type="TextField">meretricem quandam pro uxore citius sibi copulavit haec ingenui neptis set filii originarii erat filia quam cum alii pater tradere volebat auus huic eam dedet causa solius incontinentiae qui penitens tandem ex ancilla proprios filios sibi querere cepit de adulterio tandem convictus et punitus quendam rogavit ut uxorem suam opprimeret ut sic eam dimittere posset quo facto quandam infidelem sibi copulavit ea tamen conditione ut ad christianam transiret religionem ¶hic primum queritur an meretrix licite ducatur in uxorem secundo an ea que incontinentiae causa ducitur sit coniux appellanda tercio cuius arbitrium aliqua sequatur an liberi aui an originarii liberi patris quarto si vivente uxore liceat alicui ex ancilla filios querere non quinto si ea que vim patitur puditiciam amittat sexto si adulter adulteram dimittere possit non septimo si vivente dimissa aliam possit accipere non octavo si infidelem sub premissa conditione licet alicui fidelium in coniugem ducere</field>
   </object>
-  <object model="ingobert.sample" pk="73">
+  <object model="ingobert.sample" pk="148">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 33, d.init.</field>
     <field name="text" type="TextField">impeditus quidam maleficiis uxori suae debitum reddere non potest alius interim clanculo eam corrupit cui illa publice nupsit crimen quod admiserat corde tantum confitetur redditur quondam viro facultas cognoscendi eam repetit qua recepta ut expeditius orationi vacaret continentiam in quadragesimali tempore se servaturum promisit uxor consensum non adhibuit queritur an ob coeundi inpossibilitatem coniugem possit seperari secundo an post separationem ei nubere possit cum quo prius fornicata est tercio si sola corde confessione crimen possit deleri quarto si tempore orationis debitum solvere possit quinto an vir sine consensu uxoris continentiam vovere valeat vel si minis vel terroribus licenciam vovendi ab ea extorquere valeat</field>
   </object>
-  <object model="ingobert.sample" pk="74">
+  <object model="ingobert.sample" pk="149">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 34, d.init.</field>
     <field name="text" type="TextField">quidam cum ab hostibus captus teneretur uxor eius audiens eum decessisse alii se copulavit ille vero tandem reversus uxorem repetit illa autem ad eum redire reclamat unde primo queritur an adulterii rea sit secundo an ad primum redire cogatur</field>
   </object>
-  <object model="ingobert.sample" pk="75">
+  <object model="ingobert.sample" pk="150">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 35, d.init.</field>
     <field name="text" type="TextField">uxore cuiusdam defuncta ipse aliam sibi coniunxit que quidem quartro gradu uxori defunctae viro autem sexta linea propinqua erat liberis ex ea susceptis apud ecclesiam accusatur ignorantiam pretendit unde queritur an quis aliquam de propria cognatione ducere possit secundo si ex consanguinitate uxoris quis uxorem habere valeat tercio ad quem usque gradum habere observantia sit celebranda quarto cur usque ad septimum gradum et non ultra vel citra hoc observetur quinto qualiter gradus huiusmodi sint conputandi sexto qui iuramento propinquitatem firmare debeant septimo an qui de incestuosis nati sint filii dici debeant octavo si ignoranter de consanguinitate aliqua ducta sit vel etiam de affinitate an dispensatio possit adhiberi nono si contigerit ecclesiam decipi et causa consanguinitatis aliquam a viro suo separare que post quadriennium nuptiis hinc inde celebratis deprehenditur non fuisse consanguinea prioris an secunda coniugia sint rescindenda et priora sint redintegranda decimo si relicta alicuius de propria cognatione ad secundas nuptias transierit an proles ex his suscepta possit pertingere ad consortium alicuius de cognatione prioris viri</field>
   </object>
-  <object model="ingobert.sample" pk="76">
+  <object model="ingobert.sample" pk="151">
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">Sg</field>
     <field name="label" type="CharField">C. 36, d.init.</field>
     <field name="text" type="TextField">cuiusdam filiam patre suo ignorante quidam muneribus illexit ad convivium invitavit convivio finito eam oppressit quo cogito traditur iuveni a parentibus puella et pro more a iuvene dotatur et publice in uxorem ducitur hinc queritur an ille raptum fecerit secundo an raptori rapta copulari possit patre assensum praestante</field>
   </object>
 </django-objects>
-
