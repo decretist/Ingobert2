@@ -520,7 +520,7 @@
     <field name="project" type="CharField">Gratian</field>
     <field name="source" type="CharField">1r.</field>
     <field name="label" type="CharField">C. 5, d.init.</field>
-    <field name="text" type="TextField">in infamiam cuiusdam episcopi cartula accusationis occulte conscribitur tandem accusator procedit in publicum episcopus semel litteris evocatus cause sue die statuta adesse non valens per procuratorem iudici se representavit absque sinodali audientia dampnatur demum iudicio per appellationem renovato de accusatoris inimicitia episcopus conqueritur tandem in probatione deficit accusator primo queritur qua pena sitferiendus qui famosum libellum clanculo scribens probare negligit que litteris mandavit secundo quotiens sit vocandus ad causam ante quam sententiam dampnationis excipiat tertio an per procuratorem causam suam agere valeat qui per se ipsum cause sue adesse non potest quarto an absque sinodali audientia sit dampnandus quinto an ideo aliquis sit habendus inimicus quia crimen alterius indicat sexto qua pena sit plectendus qui quod intulit probare non valet</field>
+    <field name="text" type="TextField">in infamiam cuiusdam episcopi cartula accusationis occulte conscribitur tandem accusator procedit in publicum episcopus semel litteris evocatus cause sue die statuta adesse non valens per procuratorem iudici se representavit absque sinodali audientia dampnatur demum iudicio per appellationem renovato de accusatoris inimicitia episcopus conqueritur tandem in probatione deficit accusator primo queritur qua pena sit feriendus qui famosum libellum clanculo scribens probare negligit que litteris mandavit secundo quotiens sit vocandus ad causam ante quam sententiam dampnationis excipiat tertio an per procuratorem causam suam agere valeat qui per se ipsum cause sue adesse non potest quarto an absque sinodali audientia sit dampnandus quinto an ideo aliquis sit habendus inimicus quia crimen alterius indicat sexto qua pena sit plectendus qui quod intulit probare non valet</field>
   </object>
   <object model="ingobert.sample" pk="88">
     <field name="project" type="CharField">Gratian</field>
@@ -907,3 +907,4 @@
     <field name="text" type="TextField">cuiusdam filiam patre suo ignorante quidam muneribus illexit ad convivium invitavit convivio finito eam oppressit quo cogito traditur iuveni a parentibus puella et pro more a iuvene dotatur et publice in uxorem ducitur hinc queritur an ille raptum fecerit secundo an raptori rapta copulari possit patre assensum praestante</field>
   </object>
 </django-objects>
+
