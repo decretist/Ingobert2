@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="ingobert.sample" pk="1">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">Aa</field>
+    <field name="label" type="CharField">D. 63, d.p.c. 34</field>
+    <field name="text" type="TextField">Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate Nicholai papȩ est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo Innocentii papȩ romȩ habita constitutum est.</field>
+  </object>
+  <object model="ingobert.sample" pk="2">
+    <field name="project" type="CharField">Gratian</field>
+    <field name="source" type="CharField">Bc</field>
+    <field name="label" type="CharField">D. 63, d.p.c. 34</field>
+    <field name="text" type="TextField">Nunc autem sicut electio summi pontificis non a cardinalibus tantum immo etiam ab aliis religiosis clericis auctoritate nicholay pape est facienda ita et episcoporum electio non a canonicis tantum set etiam ab aliis religiosis clericis sicut in generali synodo innocentii pape rome habita constitutum est.</field>
+  </object>
+</django-objects>
+
