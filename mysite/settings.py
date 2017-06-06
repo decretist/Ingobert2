@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1u*4=k&31a(84)oi8^gab!+1jd-vuc@b$$m$ia+a0dm0b!ji0t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['itsdh01.sandiego.edu', 'itsdh02.sandiego.edu']
+ALLOWED_HOSTS = []
 
 
 # Application definition

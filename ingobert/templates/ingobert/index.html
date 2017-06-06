@@ -10,7 +10,7 @@ Ingobert: Front Page
 <div class="row">
 <div class="column grid_4">
 <h3 style="text-align:center">2-Column Comparison</h3>
-<form action="/2column/" method="post">{% csrf_token %}
+<form action="/ingobert/2column/" method="post">{% csrf_token %}
 <input name="project" type="hidden" value="Capitulare Carisiacense">
 <h4>Select capitulum:</h4>
 <select name="label">
@@ -52,7 +52,7 @@ Ingobert: Front Page
 </div>
 <div class="column grid_4" style="background-color: #f0f0f0">
 <h3 style="text-align:center">4-Column Comparison</h3>
-<form action="/4column/" method="post">{% csrf_token %}
+<form action="/ingobert/4column/" method="post">{% csrf_token %}
 <input name="project" type="hidden" value="Capitulare Carisiacense">
 <h4>Select capitulum:</h4>
 <select name="label">
@@ -89,7 +89,7 @@ Ingobert: Front Page
 <div class="row">
 <div class="column grid_4" style="background-color: #f0f0f0">
 <h3 style="text-align:center">2-Column Comparison</h3>
-<form action="/2column/" method="post">{% csrf_token %}
+<form action="/ingobert/2column/" method="post">{% csrf_token %}
 <input name="project" type="hidden" value="Gratian">
 <h4>Select case statement:</h4>
 <select name="label">
@@ -151,7 +151,7 @@ Ingobert: Front Page
 </div>
 <div class="column grid_4">
 <h3 style="text-align:center">3-Column Comparison</h3>
-<form action="/3column/" method="post">{% csrf_token %}
+<form action="/ingobert/3column/" method="post">{% csrf_token %}
 <input name="project" type="hidden" value="Gratian">
 <h4>Select case statement:</h4>
 <select name="label">
@@ -208,7 +208,7 @@ Ingobert: Front Page
 <h3 style="text-align:center"><cite>Decretum</cite> Demo</h3>
 <p>
 Here is a link to the original demo page comparing the Aa and Bc texts of 
-<a href="/demo/">Gratian, <cite>Decretum</cite>, D. 63, d.p.c. 34</a>.
+<a href="/ingobert/demo/">Gratian, <cite>Decretum</cite>, D. 63, d.p.c. 34</a>.
 </p>
 </div>
 </div>
