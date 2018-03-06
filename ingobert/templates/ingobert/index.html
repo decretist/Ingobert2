@@ -7,7 +7,11 @@ Ingobert: Front Page
 </title>
 </head>
 <body>
-<div class="row">
+<div class="tab">
+<button class="tablinks" onclick="aboutme(event, 'Ingobert')">Capitulare Carisiacense</button>
+<button class="tablinks" onclick="aboutme(event, 'Gratian')">Gratian's Decretum</button>
+</div>
+<div id="Ingobert" class="tabcontent">
 <div class="column grid_4">
 <h3 style="text-align:center">2-Column Comparison</h3>
 <form action="/ingobert/2column/" method="post">{% csrf_token %}
@@ -86,7 +90,7 @@ Ingobert: Front Page
 <p></p>
 </div>
 </div>
-<div class="row">
+<div id="Gratian" class="tabcontent">
 <div class="column grid_4" style="background-color: #f0f0f0">
 <h3 style="text-align:center">2-Column Comparison</h3>
 <form action="/ingobert/2column/" method="post">{% csrf_token %}
@@ -212,5 +216,6 @@ Here is a link to the original demo page comparing the Aa and Bc texts of
 </p>
 </div>
 </div>
+<script src="/static/ingobert/Demo.js"></script>
 </body>
 </html>
