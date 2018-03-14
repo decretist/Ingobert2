@@ -1,15 +1,14 @@
 body {font-family: Verdana; font-size: 70%}
 .highlight {color:red}
 
-/* 
+/*
  * Rachel Truong (truongr@sandiego.edu)
  * February 2018
  */
 .tab {
   overflow: auto;
-  border: 1px solid #ddd;
+  border: none;
   background-color: #f1f1f1
-  
 }
 
 .tab button {
@@ -20,7 +19,8 @@ body {font-family: Verdana; font-size: 70%}
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: Verdana; font-weight: bold;
 }
 
 .tab button:hover {
@@ -34,6 +34,7 @@ body {font-family: Verdana; font-size: 70%}
 .tabcontent {
   display: none;
   padding:6px 12px;
-  border: 1px solid #ddd;
+  border: none;
   border-top: none;
 }
+

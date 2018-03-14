@@ -1,8 +1,8 @@
-/* 
+/*
  * Rachel Truong (truongr@sandiego.edu)
  * February 2018
  */
-function aboutme(evt, aname) {
+function project(evt, aname) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -15,3 +15,4 @@ function aboutme(evt, aname) {
     document.getElementById(aname).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
