@@ -1,5 +1,6 @@
 # Ingobert2
 
+Ingobert2 runs under Python 3.6.5 and Django 2.1.4 (27 December 2018).
 Ingobert2 runs under Python 3.6.5 and Django 2.0.4 (15 April 2018).
 
 If you have not worked with Ingobert2 recently, upgrade pip and Django:
