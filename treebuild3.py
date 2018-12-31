@@ -27,11 +27,11 @@ def main():
         text = re.sub('['+string.punctuation+']', '', text)
         text = text.lower()
         #
-        text = text.replace('cia', 'tia')
-        text = text.replace('cio', 'tio')
-        text = text.replace('ae', 'e')
-        text = text.replace('V', 'U')
-        text = text.replace('v', 'u')
+        # text = text.replace('cia', 'tia')
+        # text = text.replace('cio', 'tio')
+        # text = text.replace('ae', 'e')
+        # text = text.replace('V', 'U')
+        # text = text.replace('v', 'u')
         #
         builder.data(text)
         builder.end('field')
