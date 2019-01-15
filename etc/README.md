@@ -2,7 +2,15 @@
 
 (30 December 2018)
 
-- [ ] Merge Ingobert2 and Ingobert2-etc repositories
+- [x] Merge Ingobert2 and Ingobert2-etc repositories
+
+```
+cd Ingobert2
+git remote add etc git@github.com:decretist/Ingobert2-etc.git
+git remote -v
+git fetch etc --tags
+git merge --allow-unrelated-histories etc/master
+```
 ---
 `load1.xml` is a handcrafted data fixture in django-objects XML
 format that I created during the earliest stages (September 2016?)
