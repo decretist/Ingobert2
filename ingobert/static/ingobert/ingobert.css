@@ -1,4 +1,5 @@
-body {font-family: Verdana; font-size: 85%}
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+body {font-family: 'Libre Franklin', sans-serif; font-size: 85%}
 .highlight {color:red}
 
 /*
