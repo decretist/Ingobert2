@@ -1,5 +1,6 @@
 # Ingobert2
 
+Ingobert2 runs under Python 3.7.2 and Django 2.1.5 (8 February 2019).
 Ingobert2 runs under Python 3.6.5 and Django 2.1.4 (27 December 2018).
 Ingobert2 runs under Python 3.6.5 and Django 2.0.4 (15 April 2018).
 
@@ -31,3 +32,14 @@ If you are setting up the development environment for the first time:
 ```
 sudo -H pip3 install django
 ```
+---
+"In the beginning ..."
+```
+django-admin startproject mysite
+mv -i mysite Ingobert2
+cd Ingobert2
+python3 manage.py startapp ingobert
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
