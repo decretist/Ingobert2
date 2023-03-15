@@ -1,8 +1,9 @@
 # Ingobert2
 
-Ingobert2 runs under Python 3.7.2 and Django 2.1.5 (8 February 2019).
-Ingobert2 runs under Python 3.6.5 and Django 2.1.4 (27 December 2018).
-Ingobert2 runs under Python 3.6.5 and Django 2.0.4 (15 April 2018).
+Ingobert2 runs under Python 3.11.2 and Django 4.1.7 (15 March 2023).  
+Ingobert2 runs under Python 3.7.2 and Django 2.1.5 (8 February 2019).  
+Ingobert2 runs under Python 3.6.5 and Django 2.1.4 (27 December 2018).  
+Ingobert2 runs under Python 3.6.5 and Django 2.0.4 (15 April 2018).  
 
 If you have not worked with Ingobert2 recently, upgrade pip and Django:
 ```
@@ -10,7 +11,7 @@ sudo -H pip3 install --upgrade pip
 sudo -H pip3 install --upgrade django
 ```
 Installed packages are in
-/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages
 
 After cloning Ingobert2 onto a new machine,
 apply migrations, load data, and run server:
