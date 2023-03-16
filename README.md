@@ -44,5 +44,5 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-[Writing your first Django app](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
-[Python and Django tutorial in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django)
+[Writing your first Django app](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)  
+[Python and Django tutorial in Visual Studio Code](https://code.visualstudio.com/docs/python/tutorial-django)  
